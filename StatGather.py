@@ -24,7 +24,7 @@ class Stat:
                     for item in self.data['resultSets']:
                         values = item['rowSet']
                         headers = item['headers']
-                        val_list.append([dict(zip(headers, value)) for value in values][0])
+                        val_list.append([dict(zip(headers, value)) for value in values])
                     return val_list
                 except KeyError:
                     return None
@@ -239,11 +239,113 @@ class TeamGeneralStats(Stat):
                   'StarterBench': '', 'TeamID': '0', 'VsConference': '', 'VsDivision': ''}
         super().__init__('http://stats.nba.com/stats/teamdashboardbygeneralsplits?', params, kwargs, team=team)
 
-"""
+
 class TeamLineupStats(Stat):
 
     def __init__(self, team, **kwargs):
-        params = {}
-"""
+        params = {'Conference': '', 'DateFrom': '', 'DateTo': '', 'Division': '', 'GameID': '', 'GameSegment': '',
+                  'LastNGames': '0', 'LeagueID': '00', 'Location': '', 'MeasureType': 'Base', 'Month': '0',
+                  'OpponentTeamID': '0', 'Outcome': '', 'PORound': '0', 'PaceAdjust': 'N', 'PerMode': 'PerGame',
+                  'Period': '0', 'PlayerExperience': '', 'PlayerPosition': '', 'PlusMinus': 'N', 'Rank': 'N',
+                  'Season': '2015-16', 'SeasonSegment': '', 'SeasonType': 'Regular Season', 'ShotClockRange': '',
+                  'StarterBench': '', 'TeamID': '0', 'VsConference': '', 'VsDivision': '', 'GroupQuantity': '5'}
+        super().__init__('http://stats.nba.com/stats/teamdashlineups?', params, kwargs, team=team)
 
-print(GeneralPlayerStats('Andre Drummond').list[0])
+
+class TeamPlayerStats(Stat):
+
+    def __init__(self, team, **kwargs):
+        params = {'Conference': '', 'DateFrom': '', 'DateTo': '', 'Division': '', 'GameScope': '', 'GameSegment': '',
+                  'LastNGames': '0', 'LeagueID': '00', 'Location': '', 'MeasureType': 'Base', 'Month': '0',
+                  'OpponentTeamID': '0', 'Outcome': '', 'PORound': '0', 'PaceAdjust': 'N', 'PerMode': 'PerGame',
+                  'Period': '0', 'PlayerExperience': '', 'PlayerPosition': '', 'PlusMinus': 'N', 'Rank': 'N',
+                  'Season': '2015-16', 'SeasonSegment': '', 'SeasonType': 'Regular Season', 'ShotClockRange': '',
+                  'StarterBench': '', 'TeamID': '0', 'VsConference': '', 'VsDivision': ''}
+        super().__init__('http://stats.nba.com/stats/teamplayerdashboard?', params, kwargs, team=team)
+
+        print(self.list[1][0])
+
+
+class TeamOnOffStats(Stat):
+
+    def __init__(self, team, **kwargs):
+        params = {'Conference': '', 'DateFrom': '', 'DateTo': '', 'Division': '', 'GameScope': '', 'GameSegment': '',
+                  'LastNGames': '0', 'LeagueID': '00', 'Location': '', 'MeasureType': 'Base', 'Month': '0',
+                  'OpponentTeamID': '0', 'Outcome': '', 'PORound': '0', 'PaceAdjust': 'N', 'PerMode': 'Per48',
+                  'Period': '0', 'PlayerExperience': '', 'PlayerPosition': '', 'PlusMinus': 'N', 'Rank': 'N',
+                  'Season': '2015-16', 'SeasonSegment': '', 'SeasonType': 'Regular Season', 'ShotClockRange': '',
+                  'StarterBench': '', 'TeamID': '0', 'VsConference': '', 'VsDivision': ''}
+        super().__init__('http://stats.nba.com/stats/teamplayeronoffdetails?', params, kwargs, team=team)
+
+
+class TeamGameLogs(Stat):
+
+    def __init__(self, team, **kwargs):
+        params = {'LeagueID': '00', 'Season': '2015-16', 'SeasonType': 'Regular Season'}
+        super().__init__('http://stats.nba.com/stats/teamgamelog?', params, kwargs, team=team)
+
+        print(self.list[0][0])
+
+
+class TeamHistoryStats(Stat):
+
+    def __init__(self, team, **kwargs):
+        params = {'LeagueID': '00', 'PerMode': 'Totals', 'SeasonType': 'Regular Season'}
+        super().__init__('http://stats.nba.com/stats/teamyearbyyearstats?', params, kwargs, team=team)
+
+        print(self.list[0][0])
+
+
+class TeamShotTracking(Stat):
+
+    def __init__(self, team, **kwargs):
+        params = {'Conference': '', 'DateFrom': '', 'DateTo': '', 'Division': '', 'GameScope': '', 'GameSegment': '',
+                  'LastNGames': '0', 'LeagueID': '00', 'Location': '', 'MeasureType': 'Base', 'Month': '0',
+                  'OpponentTeamID': '0', 'Outcome': '', 'PORound': '0', 'PaceAdjust': 'N', 'PerMode': 'PerGame',
+                  'Period': '0', 'PlayerExperience': '', 'PlayerPosition': '', 'PlusMinus': 'N', 'Rank': 'N',
+                  'Season': '2015-16', 'SeasonSegment': '', 'SeasonType': 'Regular Season', 'ShotClockRange': '',
+                  'StarterBench': '', 'TeamID': '0', 'VsConference': '', 'VsDivision': ''}
+        super().__init__('http://stats.nba.com/stats/teamdashptshots?', params, kwargs, team=team)
+
+class TeamReboundTracking(Stat):
+
+    def __init__(self, team, **kwargs):
+        params = {'Conference': '', 'DateFrom': '', 'DateTo': '', 'Division': '', 'GameScope': '', 'GameSegment': '',
+                  'LastNGames': '0', 'LeagueID': '00', 'Location': '', 'MeasureType': 'Base', 'Month': '0',
+                  'OpponentTeamID': '0', 'Outcome': '', 'PORound': '0', 'PaceAdjust': 'N', 'PerMode': 'PerGame',
+                  'Period': '0', 'PlayerExperience': '', 'PlayerPosition': '', 'PlusMinus': 'N', 'Rank': 'N',
+                  'Season': '2015-16', 'SeasonSegment': '', 'SeasonType': 'Regular Season', 'ShotClockRange': '',
+                  'StarterBench': '', 'TeamID': '0', 'VsConference': '', 'VsDivision': ''}
+        super().__init__('http://stats.nba.com/stats/teamdashptreb?', params, kwargs, team=team)
+
+        print(self.list[0])
+
+
+class TeamPassTracking(Stat):
+
+    def __init__(self, team, **kwargs):
+        params = {'Conference': '', 'DateFrom': '', 'DateTo': '', 'Division': '', 'GameScope': '', 'GameSegment': '',
+                  'LastNGames': '0', 'LeagueID': '00', 'Location': '', 'MeasureType': 'Base', 'Month': '0',
+                  'OpponentTeamID': '0', 'Outcome': '', 'PORound': '0', 'PaceAdjust': 'N', 'PerMode': 'PerGame',
+                  'Period': '0', 'PlayerExperience': '', 'PlayerPosition': '', 'PlusMinus': 'N', 'Rank': 'N',
+                  'Season': '2015-16', 'SeasonSegment': '', 'SeasonType': 'Regular Season', 'ShotClockRange': '',
+                  'StarterBench': '', 'TeamID': '0', 'VsConference': '', 'VsDivision': ''}
+        super().__init__('http://stats.nba.com/stats/teamdashptpass?', params, kwargs, team=team)
+
+
+class TeamRoster(Stat):
+
+    def __init__(self, team, **kwargs):
+        params = {'LeagueID': '00', 'Season': '2015-16'}
+        super().__init__('http://stats.nba.com/stats/commonteamroster?', params, kwargs, team=team)
+
+
+class PlayoffPicture(Stat):
+
+    def __init__(self, **kwargs):
+        params = {'LeagueID': '00', 'SeasonID': '22015'}
+        super().__init__('http://stats.nba.com/stats/playoffpicture?', params, kwargs)
+
+
+
+
