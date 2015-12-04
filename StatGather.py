@@ -340,6 +340,12 @@ class TeamRoster(Stat):
         super().__init__('http://stats.nba.com/stats/commonteamroster?', params, kwargs, team=team)
 
 
+class TeamGeneralInfo(Stat):
+
+    def __init__(self, team, **kwargs):
+        params = {'LeagueID': '00', 'SeasonType': 'Regular Season', 'season': '2015-16'}
+        super().__init__('http://stats.nba.com/stats/teaminfocommon?', params, kwargs, team=team)
+
 class PlayoffPicture(Stat):
 
     def __init__(self, **kwargs):
@@ -347,5 +353,5 @@ class PlayoffPicture(Stat):
         super().__init__('http://stats.nba.com/stats/playoffpicture?', params, kwargs)
 
 
-
+# TeamGeneralInfo('Atlanta Hawks')robot
 
