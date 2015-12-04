@@ -22,9 +22,12 @@ class Stat:
                 try:
                     val_list = []
                     for item in self.data['resultSets']:
-                        values = item['rowSet']
-                        headers = item['headers']
-                        val_list.append([dict(zip(headers, value)) for value in values])
+                        try:
+                            values = item['rowSet']
+                            headers = item['headers']
+                            val_list.append([dict(zip(headers, value)) for value in values])
+                        except TypeError:
+                            continue
                     return val_list
                 except KeyError:
                     return None
@@ -128,14 +131,112 @@ class GeneralPlayerStats(Stat):
         super().__init__('http://stats.nba.com/stats/playerdashboardbygeneralsplits?', params, kwargs, player=player)
 
 
-    class PlayerShotTracking(Stat):
+class PlayerShotTracking(Stat):
 
-        def __init__(self, player, **kwargs):
-            params = {'DateFrom': '', 'DateTo': '', 'GameSegment': '', 'LastNGames': '0', 'LeagueID': '00', 'Location': '',
+    def __init__(self, player, **kwargs):
+        params = {'DateFrom': '', 'DateTo': '', 'GameSegment': '', 'LastNGames': '0', 'LeagueID': '00', 'Location': '',
                       'Month': '0', 'OpponentTeamID': '0', 'Outcome': '', 'PaceAdjust': 'N', 'PerMode': 'PerGame',
                       'Period': '0', 'TeamID': '0', 'Season': '2015-16', 'SeasonSegment': '',
                       'SeasonType': 'Regular Season', 'VsConference': '', 'VsDivision': ''}
-            super().__init__('http://stats.nba.com/stats/playerdashptshots?', params, kwargs, player=player)
+        super().__init__('http://stats.nba.com/stats/playerdashptshots?', params, kwargs, player=player)
+
+
+class LeaguePlayerNormalStats(Stat):
+
+    def __init__(self, **kwargs):
+        params = {'College': '', 'Conference': '', 'Country': '', 'DateFrom': '', 'DateTo': '', 'Division': '',
+                  'DraftPick': '', 'DraftYear': '', 'GameScope': '', 'GameSegment': '', 'Height': '', 'LastNGames': '0',
+                  'LeagueID': '00', 'Location': '', 'MeasureType': 'Base', 'Month': '0', 'OpponentTeamID': '0',
+                  'Outcome': '', 'PORound': '0', 'PaceAdjust': 'N', 'PerMode': 'PerGame', 'Period': '0',
+                  'PlayerExperience': '', 'PlayerPosition': '', 'PlusMinus': 'N', 'Rank': 'N', 'Season': '2015-16',
+                  'SeasonSegment': '', 'SeasonType': 'Regular Season', 'ShotClockRange': '', 'StarterBench': '',
+                  'TeamID': '0', 'VsConference': '', 'VsDivision': '', 'Weight': ''}
+        super().__init__('http://stats.nba.com/stats/leaguedashplayerstats?', params, kwargs)
+        print(self.data)
+        print(self.list[0][0])
+
+    """
+    # TODO: FIX THIS LATER
+    def sort_list(self, stat):
+        try:
+            return sorted([item for item in self.list[0]], key=lambda x: item[stat])
+        except IndexError:
+            return None
+        except AttributeError:
+            return None
+    """
+
+
+class LeaguePlayerClutchStats(Stat):
+
+    def __init__(self, **kwargs):
+        params = {'College': '', 'Conference': '', 'Country': '', 'DateFrom': '', 'DateTo': '', 'Division': '',
+                  'DraftPick': '', 'DraftYear': '', 'GameScope': '', 'GameSegment': '', 'Height': '', 'LastNGames': '0',
+                  'LeagueID': '00', 'Location': '', 'MeasureType': 'Base', 'Month': '0', 'OpponentTeamID': '0',
+                  'Outcome': '', 'PORound': '0', 'PaceAdjust': 'N', 'PerMode': 'PerGame', 'Period': '0',
+                  'PlayerExperience': '', 'PlayerPosition': '', 'PlusMinus': 'N', 'Rank': 'N', 'Season': '2015-16',
+                  'SeasonSegment': '', 'SeasonType': 'Regular Season', 'ShotClockRange': '', 'StarterBench': '',
+                  'TeamID': '0', 'VsConference': '', 'VsDivision': '', 'Weight': '', 'AheadBehind': 'Ahead or Behind',
+                  'ClutchTime': 'Last 5 Minutes', 'PointDiff': '5'}
+        super().__init__('http://stats.nba.com/stats/leaguedashplayerclutch?', params, kwargs)
+
+        print(self.list[0][0])
+
+"""
+class LeaguePlayerShotStats(Stat):
+
+    def __init__(self, **kwargs):
+        params = {'College': '', 'Conference': '', 'Country': '', 'DateFrom': '', 'DateTo': '', 'Division': '',
+                  'DraftPick': '', 'DraftYear': '', 'GameScope': '', 'GameSegment': '', 'Height': '', 'LastNGames': '0',
+                  'LeagueID': '00', 'Location': '', 'MeasureType': 'Base', 'Month': '0', 'OpponentTeamID': '0',
+                  'Outcome': '', 'PORound': '0', 'PaceAdjust': 'N', 'PerMode': 'PerGame', 'Period': '0',
+                  'PlayerExperience': '', 'PlayerPosition': '', 'PlusMinus': 'N', 'Rank': 'N', 'Season': '2015-16',
+                  'SeasonSegment': '', 'SeasonType': 'Regular Season', 'ShotClockRange': '', 'StarterBench': '',
+                  'TeamID': '0', 'VsConference': '', 'VsDivision': '', 'Weight': '', 'AheadBehind': 'Ahead or Behind',
+                  'ClutchTime': 'Last 5 Minutes', 'PointDiff': '5', 'DistanceRange': '5ft Range'}
+        super().__init__('http://stats.nba.com/stats/leaguedashplayershotlocations?', params, kwargs)
+
+        print(self.list[0][0])
+
+LeaguePlayerShotStats()
+"""
+
+# TODO: fix the problem with the above class -- the problem is that instead of storing the values in individual dicts,
+# they stored them in just one dict, which breaks the last part -- can be fixed by checking the length of the dict
+# before I take the info.
+
+
+class LeaguePlayerBios(Stat):
+
+    def __init__(self, **kwargs):
+        params = {'College': '', 'Conference': '', 'Country': '', 'DateFrom': '', 'DateTo': '', 'Division': '',
+                  'DraftPick': '', 'DraftYear': '', 'GameScope': '', 'GameSegment': '', 'Height': '', 'LastNGames': '0',
+                  'LeagueID': '00', 'Location': '', 'MeasureType': 'Base', 'Month': '0', 'OpponentTeamID': '0',
+                  'Outcome': '', 'PORound': '0', 'PaceAdjust': 'N', 'PerMode': 'PerGame', 'Period': '0',
+                  'PlayerExperience': '', 'PlayerPosition': '', 'PlusMinus': 'N', 'Rank': 'N', 'Season': '2015-16',
+                  'SeasonSegment': '', 'SeasonType': 'Regular Season', 'ShotClockRange': '', 'StarterBench': '',
+                  'TeamID': '0', 'VsConference': '', 'VsDivision': '', 'Weight': '', 'AheadBehind': 'Ahead or Behind',
+                  'ClutchTime': 'Last 5 Minutes', 'PointDiff': '5', 'DistanceRange': '5ft Range'}
+        super().__init__('http://stats.nba.com/stats/leaguedashplayerbiostats?', params, kwargs)
+
+        print(self.list[0][0])
+
+
+class LeagueGameLogs(Stat):
+
+    def __init__(self, **kwargs):
+        params = {'College': '', 'Conference': '', 'Country': '', 'DateFrom': '', 'DateTo': '', 'Division': '',
+                  'DraftPick': '', 'DraftYear': '', 'GameScope': '', 'GameSegment': '', 'Height': '', 'LastNGames': '0',
+                  'LeagueID': '00', 'Location': '', 'MeasureType': 'Base', 'Month': '0', 'OpponentTeamID': '0',
+                  'Outcome': '', 'PORound': '0', 'PaceAdjust': 'N', 'PerMode': 'PerGame', 'Period': '0',
+                  'PlayerExperience': '', 'PlayerPosition': '', 'PlusMinus': 'N', 'Rank': 'N', 'Season': '2015-16',
+                  'SeasonSegment': '', 'SeasonType': 'Regular Season', 'ShotClockRange': '', 'StarterBench': '',
+                  'TeamID': '0', 'VsConference': '', 'VsDivision': '', 'Weight': '', 'AheadBehind': 'Ahead or Behind',
+                  'ClutchTime': 'Last 5 Minutes', 'PointDiff': '5', 'DistanceRange': '5ft Range', 'Counter': '1000',
+                  'Direction': 'DESC',  'PlayerOrTeam': 'P', 'Sorter': 'PTS'}
+        super().__init__('http://stats.nba.com/stats/leaguegamelog?', params, kwargs)
+
+        print(self.list[0][0])
 
 
 class PlayerReboundTracking(Stat):
@@ -346,6 +447,7 @@ class TeamGeneralInfo(Stat):
         params = {'LeagueID': '00', 'SeasonType': 'Regular Season', 'season': '2015-16'}
         super().__init__('http://stats.nba.com/stats/teaminfocommon?', params, kwargs, team=team)
 
+
 class PlayoffPicture(Stat):
 
     def __init__(self, **kwargs):
@@ -353,5 +455,70 @@ class PlayoffPicture(Stat):
         super().__init__('http://stats.nba.com/stats/playoffpicture?', params, kwargs)
 
 
-# TeamGeneralInfo('Atlanta Hawks')robot
+class FranchiseHistory(Stat):
+
+    def __init__(self, **kwargs):
+        params = {'LeagueID': '00'}
+        super().__init__('http://stats.nba.com/stats/franchisehistory?', params, kwargs)
+
+        print(self.list[1][0])
+
+
+class DraftCombineGeneralStats(Stat):
+
+    def __init__(self, **kwargs):
+        params = {'LeagueID': '00', 'SeasonYear': '2015-16'}
+        super().__init__('http://stats.nba.com/stats/draftcombinestats?', params, kwargs)
+
+        print(self.list[0][0])
+
+
+class DraftCombineSpotUpStats(Stat):
+
+    def __init__(self, **kwargs):
+        params = {'LeagueID': '00', 'SeasonYear': '2015-16'}
+        super().__init__('http://stats.nba.com/stats/draftcombinespotshooting?', params, kwargs)
+
+        print(self.list[0][0])
+
+
+class DraftCombineNonStationaryStats(Stat):
+
+    def __init__(self, **kwargs):
+        params = {'LeagueID': '00', 'SeasonYear': '2015-16'}
+        super().__init__('http://stats.nba.com/stats/draftcombinenonstationaryshooting?', params, kwargs)
+
+        print(self.list[0][0])
+
+
+class DraftCombineStrengthAgilityStats(Stat):
+
+    def __init__(self, **kwargs):
+        params = {'LeagueID': '00', 'SeasonYear': '2015-16'}
+        super().__init__('http://stats.nba.com/stats/draftcombinedrillresults?', params, kwargs)
+
+        print(self.list[0][0])
+
+
+class DraftCombineBodyStats(Stat):
+
+    def __init__(self, **kwargs):
+        params = {'LeagueID': '00', 'SeasonYear': '2015-16'}
+        super().__init__('http://stats.nba.com/stats/draftcombineplayeranthro?', params, kwargs)
+
+        print(self.list[0][0])
+
+
+class DraftHistory(Stat):
+
+    def __init__(self, **kwargs):
+        params = {'College': '', 'LeagueID': '00', 'OverallPick': '', 'RoundNum': '', 'RoundPick': '', 'Season': '2015',
+                  'TeamID': '0', 'TopX': ''}
+        super().__init__('http://stats.nba.com/stats/drafthistory?', params, kwargs)
+
+        print(self.list[0][0])
+
+
+# Draft Combine Stats work from my end -- but the stats are very incomplete from an NBA end, many of the values are left
+# unfilled -- so don't expect these to work very well for real usage.
 
