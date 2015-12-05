@@ -27,10 +27,14 @@ class Stat:
                             headers = item['headers']
                             val_list.append([dict(zip(headers, value)) for value in values])
                         except TypeError:
-                            continue
+                            values = (self.data['resultSets']['rowSet'])
+                            headers = (self.data['resultSets']['headers'][1])
+                            print(headers)
+                            return [dict(zip(headers['columnNames'], value)) for value in values]
                     return val_list
                 except KeyError:
                     return None
+
 
     @staticmethod
     def get_data(url, params):
@@ -39,6 +43,7 @@ class Stat:
         except requests.RequestException:
             return None
         except simplejson.scanner.JSONDecodeError:
+            print(requests.get(url, params).url)
             print('Something went wrong with the parameters or URL')
             return None
 
@@ -152,8 +157,7 @@ class LeaguePlayerNormalStats(Stat):
                   'SeasonSegment': '', 'SeasonType': 'Regular Season', 'ShotClockRange': '', 'StarterBench': '',
                   'TeamID': '0', 'VsConference': '', 'VsDivision': '', 'Weight': ''}
         super().__init__('http://stats.nba.com/stats/leaguedashplayerstats?', params, kwargs)
-        print(self.data)
-        print(self.list[0][0])
+        print(self.list)
 
     """
     # TODO: FIX THIS LATER
@@ -183,6 +187,7 @@ class LeaguePlayerClutchStats(Stat):
         print(self.list[0][0])
 
 """
+
 class LeaguePlayerShotStats(Stat):
 
     def __init__(self, **kwargs):
@@ -196,15 +201,13 @@ class LeaguePlayerShotStats(Stat):
                   'ClutchTime': 'Last 5 Minutes', 'PointDiff': '5', 'DistanceRange': '5ft Range'}
         super().__init__('http://stats.nba.com/stats/leaguedashplayershotlocations?', params, kwargs)
 
-        print(self.list[0][0])
-
-LeaguePlayerShotStats()
-"""
+        print(self.list[0])
 
 # TODO: fix the problem with the above class -- the problem is that instead of storing the values in individual dicts,
 # they stored them in just one dict, which breaks the last part -- can be fixed by checking the length of the dict
 # before I take the info.
 
+"""
 
 class LeaguePlayerBios(Stat):
 
