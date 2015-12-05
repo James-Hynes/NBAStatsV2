@@ -21,8 +21,9 @@ class ComparePlayers:
         self.player_one, self.player_two = Player(player_one), Player(player_two)
 
         stat_compare = self.compare_stats(self.player_one.basic_stats, self.player_two.basic_stats)
-        print(self.tally_compare(stat_compare))
+        tally_compare = self.tally_compare(stat_compare)
 
+        print(self.return_formatted_player_comp(stat_compare, tally_compare))
     def compare_stats(self, stats_one, stats_two):
         stats_one = self.change_negative_stats(self.strip_non_stats(stats_one))
         stats_two = self.change_negative_stats(self.strip_non_stats(stats_two))
@@ -50,6 +51,14 @@ class ComparePlayers:
 
         return tally
 
+    def return_formatted_player_comp(self, stat_compare, tally_compare=None):
+        if not tally_compare:
+            tally_compare = self.tally_compare(stat_compare)
+        sentence_form = '{} is better in {} of {} statistical categories, {} scores more, {} gets more assists, and {}' \
+                        ' gets more rebounds.'
+        return sentence_form.format(max(tally_compare), tally_compare[max(tally_compare)], sum(tally_compare.values()),
+                                    stat_compare['PTS'], stat_compare['AST'], stat_compare['REB'])
+
     @staticmethod
     def strip_non_stats(stat_dict):
         non_stats = ['GROUP_SET', 'GROUP_VALUE', 'TD3', 'CFID', 'CFPARAMS']
@@ -66,6 +75,7 @@ class ComparePlayers:
                 stat_dict[item] *= -1
 
         return stat_dict
+
 
 
 ComparePlayers('Stephen Curry', 'LeBron James')
