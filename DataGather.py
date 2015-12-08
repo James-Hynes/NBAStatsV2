@@ -1,10 +1,25 @@
 import requests
 import simplejson.scanner
+import datetime
+import time
 
 
 class Stat:
+    """Super class to handle general stat gathering from stats.nba.com
+
+
+    """
 
     def __init__(self, url, base_params, args, player=None, team=None):
+        """Get data and sort it into a list of stat values
+
+        :param url: The JSON library to retrieve data from -- provided by the subclasses
+        :param base_params: The required parameters for the JSON request -- provided by the subclasses
+        :param args: User-defined arguments to push in the request
+        :param player: User-defined argument to define a specific player to get statistics for -- only used some classes
+        :param team: User-defined argument to define a specific team to get statistics for -- only used in some classes
+        :return: None
+        """
         if player:
             base_params['PlayerID'] = self.get_id_from_player(player)
         if team:
@@ -13,6 +28,10 @@ class Stat:
         self.list = self.zip_data_as_list()
 
     def zip_data_as_list(self):
+        """
+
+        :return: A list of statistics sorted into a list
+        """
         if self.data:
             try:
                 values = self.data['resultSet']['rowSet']
@@ -35,9 +54,14 @@ class Stat:
                 except KeyError:
                     return None
 
-
     @staticmethod
     def get_data(url, params):
+        """
+
+        :param url: The JSON library to retrieve data from -- provided by the subclasses
+        :param params: The required parameters for the JSON request -- provided by the subclasses
+        :return: The actual unsorted data from the JSON library
+        """
         try:
             return requests.get(url, params).json()
         except requests.RequestException:
@@ -49,6 +73,12 @@ class Stat:
 
     @staticmethod
     def remove(change_list, index):
+        """
+
+        :param change_list:
+        :param index:
+        :return:
+        """
         if change_list:
             try:
                 change_list[index] = None
@@ -71,7 +101,8 @@ class Stat:
         try:
             with open('playerlist.txt', 'r') as player_file:
                 try:
-                    return [line.split(': ')[1].replace('\n', '') for line in player_file if line.__contains__(player)][0]
+                    return [line.split(': ')[1].replace('\n', '') for line in player_file
+                            if line.__contains__(player)][0]
                 except IndexError:
                     return None
         except FileNotFoundError:
@@ -140,9 +171,9 @@ class PlayerShotTracking(Stat):
 
     def __init__(self, player, **kwargs):
         params = {'DateFrom': '', 'DateTo': '', 'GameSegment': '', 'LastNGames': '0', 'LeagueID': '00', 'Location': '',
-                      'Month': '0', 'OpponentTeamID': '0', 'Outcome': '', 'PaceAdjust': 'N', 'PerMode': 'PerGame',
-                      'Period': '0', 'TeamID': '0', 'Season': '2015-16', 'SeasonSegment': '',
-                      'SeasonType': 'Regular Season', 'VsConference': '', 'VsDivision': ''}
+                  'Month': '0', 'OpponentTeamID': '0', 'Outcome': '', 'PaceAdjust': 'N', 'PerMode': 'PerGame',
+                  'Period': '0', 'TeamID': '0', 'Season': '2015-16', 'SeasonSegment': '',
+                  'SeasonType': 'Regular Season', 'VsConference': '', 'VsDivision': ''}
         super().__init__('http://stats.nba.com/stats/playerdashptshots?', params, kwargs, player=player)
 
 
@@ -208,6 +239,7 @@ class LeaguePlayerShotStats(Stat):
 # before I take the info.
 
 """
+
 
 class LeaguePlayerBios(Stat):
 
@@ -411,6 +443,7 @@ class TeamShotTracking(Stat):
                   'StarterBench': '', 'TeamID': '0', 'VsConference': '', 'VsDivision': ''}
         super().__init__('http://stats.nba.com/stats/teamdashptshots?', params, kwargs, team=team)
 
+
 class TeamReboundTracking(Stat):
 
     def __init__(self, team, **kwargs):
@@ -524,4 +557,102 @@ class DraftHistory(Stat):
 
 # Draft Combine Stats work from my end -- but the stats are very incomplete from an NBA end, many of the values are left
 # unfilled -- so don't expect these to work very well for real usage.
+
+
+class NBAScores(Stat):
+
+    def __init__(self, **kwargs):
+        params = {'DayOffset': '', 'LeagueID': '00'}
+        super().__init__('http://stats.nba.com/stats/scoreboardV2?', params, kwargs)
+    @staticmethod
+    def get_date():
+        time_obj = datetime.datetime.fromtimestamp(time.time())
+        return '{}/{}/{}'.format('0')
+
+
+# ~~ News Stuff ~~ #
+
+class News:
+
+    def __init__(self, url, base_params=None, **kwargs):
+        self.data = self.get_data(url, base_params)
+        self.list = self.create_sorted_news()
+
+    def create_sorted_news(self):
+        if self.data:
+            try:
+                return [{'Caption': item['ListItemCaption'], 'Image': item['ListItemImageURL'],
+                         'Date': item['ListItemPubDate'], 'Link': item['ListItemLink'],
+                         'Abstract': item['ListItemAbstract']} for item in self.data['ListItems']]
+            except KeyError:
+                return None
+            except IndexError:
+                return None
+            except AttributeError:
+                return None
+
+    @staticmethod
+    def get_data(url, params):
+        try:
+            return requests.get(url, params).json()
+        except requests.RequestException:
+            return None
+        except simplejson.scanner.JSONDecodeError:
+            print(requests.get(url, params).url)
+            print('Something went wrong with the parameters or URL')
+            return None
+
+
+class BeyondTheNumbers(News):
+
+    def __init__(self):
+        super().__init__('http://stats.nba.com/feeds/StatsBeyondTheNumbersV2-594371/json.js')
+
+
+class StatHeadlines(News):
+
+    def __init__(self):
+        super().__init__('http://stats.nba.com/feeds/StatsV2Headlnes-589800/json.js')
+
+
+class StatsGlossary(News):
+
+    def __init__(self):
+        super().__init__('http://stats.nba.com/feeds/statsv2-glossary-585341/json.js')
+
+
+class StatsSynergyIntro(News):
+
+    def __init__(self):
+        super().__init__('http://stats.nba.com/feeds/StatsV2Synergy-618597/json.js')
+
+
+class HistoricalStats(News):
+
+    def __init__(self):
+        super().__init__('http://stats.nba.com/feeds/StatsV2History-589801/json.js')
+
+        print(self.list[0])
+
+
+# For some reason, it seems as if the NBA/people maintaining this site have stopped updating the box score stuff
+# So it's stuck on November 25th...
+
+class BoxScores(News):
+
+    def __init__(self):
+        super().__init__('http://stats.nba.com/feeds/StatsV2BoxScores-589802/json.js')
+
+        print(self.list[0])
+
+
+class ShotCharts(News):
+
+    def __init__(self):
+        super().__init__('http://stats.nba.com/feeds/NBAStatsShotCharts-559380/json.js')
+
+        print(self.list[0])
+
+
+
 

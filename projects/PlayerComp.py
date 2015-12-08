@@ -1,4 +1,4 @@
-from StatGather import *
+from DataGather import *
 
 
 class Player:
@@ -24,6 +24,7 @@ class ComparePlayers:
         tally_compare = self.tally_compare(stat_compare)
 
         print(self.return_formatted_player_comp(stat_compare, tally_compare))
+
     def compare_stats(self, stats_one, stats_two):
         stats_one = self.change_negative_stats(self.strip_non_stats(stats_one))
         stats_two = self.change_negative_stats(self.strip_non_stats(stats_two))
@@ -75,7 +76,6 @@ class ComparePlayers:
                 stat_dict[item] *= -1
 
         return stat_dict
-
 
 
 ComparePlayers('Stephen Curry', 'LeBron James')

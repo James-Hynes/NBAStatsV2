@@ -1,4 +1,4 @@
-from StatGather import *
+from DataGather import *
 from random import choice
 
 
@@ -59,6 +59,7 @@ class Team:
     def get_record(self):
         record_obj = TeamGeneralInfo(self.name)
         return record_obj.list[0][0]['W'], record_obj.list[0][0]['L']
+
 
 class Play:
 
