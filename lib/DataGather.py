@@ -1,7 +1,5 @@
 import requests
 import simplejson.scanner
-import datetime
-import time
 
 
 class Stat:
@@ -28,7 +26,7 @@ class Stat:
         self.list = self.zip_data_as_list()
 
     def zip_data_as_list(self):
-        """
+        """Takes the data that has already been received and converts it into [dict] format
 
         :return: A list of statistics sorted into a list
         """
@@ -56,7 +54,7 @@ class Stat:
 
     @staticmethod
     def get_data(url, params):
-        """
+        """Get the data from the JSON library provided
 
         :param url: The JSON library to retrieve data from -- provided by the subclasses
         :param params: The required parameters for the JSON request -- provided by the subclasses
@@ -73,11 +71,11 @@ class Stat:
 
     @staticmethod
     def remove(change_list, index):
-        """
+        """Remove an item from the list
 
-        :param change_list:
-        :param index:
-        :return:
+        :param change_list: the list that will be changed
+        :param index: The index of the removed item
+        :return: The list post-removal
         """
         if change_list:
             try:
@@ -88,6 +86,12 @@ class Stat:
 
     @staticmethod
     def get(get_list, index):
+        """Get a certain item from the given list
+
+        :param get_list: the list that will provide the item
+        :param index: The index of the item
+        :return: The item you are receiving
+        """
         if get_list:
             try:
                 return get_list[index]
@@ -96,6 +100,11 @@ class Stat:
 
     @staticmethod
     def get_id_from_player(player):
+        """Method to convert a player's name into their player ID -- used for all player stats
+
+        :param player: Name of the player, can be provided in either FirstName LastName format, or LastName, FirstName
+        :return: The ID of the specified player
+        """
         if not player.__contains__(','):
             player = '{}, {}'.format(player.split(' ')[1], player.split(' ')[0])
         try:
@@ -110,6 +119,11 @@ class Stat:
 
     @staticmethod
     def get_id_from_team(team):
+        """Method to convert a team's name into their team ID -- used for all team stats
+
+        :param team: Name of the team
+        :return: The ID of the team
+        """
         try:
             with open('teamlist.txt', 'r') as team_file:
                 try:
@@ -121,6 +135,12 @@ class Stat:
 
     @staticmethod
     def create_params(base_params, args):
+        """Method to take any user-specified parameters and insert them into the base_params, used before every request
+
+        :param base_params: The original parameters as provided by the subclass
+        :param args: The user-specified parameters
+        :return: The parameters - with the user specified ones changed
+        """
         for key in args.keys():
             if key in base_params:
                 base_params[key] = args[key]
@@ -564,17 +584,17 @@ class NBAScores(Stat):
     def __init__(self, **kwargs):
         params = {'DayOffset': '', 'LeagueID': '00'}
         super().__init__('http://stats.nba.com/stats/scoreboardV2?', params, kwargs)
+
     @staticmethod
     def get_date():
-        time_obj = datetime.datetime.fromtimestamp(time.time())
-        return '{}/{}/{}'.format('0')
-
+        return None
 
 # ~~ News Stuff ~~ #
 
+
 class News:
 
-    def __init__(self, url, base_params=None, **kwargs):
+    def __init__(self, url, base_params=None):
         self.data = self.get_data(url, base_params)
         self.list = self.create_sorted_news()
 
@@ -638,6 +658,9 @@ class HistoricalStats(News):
 # For some reason, it seems as if the NBA/people maintaining this site have stopped updating the box score stuff
 # So it's stuck on November 25th...
 
+# EDIT: FIXED AS OF 12/8/15
+
+
 class BoxScores(News):
 
     def __init__(self):
@@ -654,5 +677,35 @@ class ShotCharts(News):
         print(self.list[0])
 
 
+# ~~ Reddit Highlights/News/Updates Stuff ~~ #
 
+
+class Subreddit:
+
+    def __init__(self):
+        pass
+
+
+class Post:
+
+    def __init__(self, info):
+        self.info = info
+
+
+class Highlight(Post):
+
+    def __init__(self, info):
+        super().__init__(info)
+
+
+class NewsPost(Post):
+
+    def __init__(self, info):
+        super().__init__(info)
+
+
+class Update(Post):
+
+    def __init__(self, info):
+        super().__init__(info)
 
