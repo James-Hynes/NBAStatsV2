@@ -709,3 +709,46 @@ class Update(Post):
     def __init__(self, info):
         super().__init__(info)
 
+
+# ~~ Play By Play Stuff ~~ #
+
+class GameList(Stat):
+
+    def __init__(self, **kwargs):
+        params = {'Counter': '1000', 'Direction': 'DESC', 'LeagueID': '00', 'PlayerOrTeam': 'T', 'Season': '2015-16',
+                  'SeasonType': 'Regular Season', 'Sorter': 'PTS'}
+        super().__init__('http://stats.nba.com/stats/leaguegamelog?', params, kwargs)
+
+        self.list = self.remove_duplicates(self.list[0])
+
+    @staticmethod
+    def remove_duplicates(game_list):
+        fixed_list = []
+        if game_list:
+            for item in game_list:
+                if not item['GAME_ID'] in fixed_list:
+                    fixed_list.append(item['GAME_ID'])
+
+        return fixed_list
+
+
+class Game(Stat):
+
+    def __init__(self, gameID, **kwargs):
+        params = {'EndPeriod': '10', 'EndRange': '55800', 'GameID': gameID, 'RangeType': '2', 'Season': '2015-16',
+                  'SeasonType': 'Regular Season', 'StartPeriod': '1', 'StartRange': '0'}
+        super().__init__('http://stats.nba.com/stats/playbyplayv2?', params, kwargs)
+
+        print(self.tech_list)
+
+    @property
+    def tech_list(self):
+        tech_list = []
+        for item in self.list[0]:
+            if item['VISITORDESCRIPTION'] and item['VISITORDESCRIPTION'].__contains__('T.Foul'):
+                tech_list.append(item)
+            elif item['HOMEDESCRIPTION'] and item['HOMEDESCRIPTION'].__contains__('T.Foul'):
+                tech_list.append(item)
+        return tech_list
+
+Game(GameList().list[2])

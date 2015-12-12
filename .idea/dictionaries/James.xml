@@ -3,6 +3,8 @@
     <words>
       <w>cfid</w>
       <w>cfparams</w>
+      <w>eventmsgtype</w>
+      <w>homedescription</w>
       <w>teamlist</w>
     </words>
   </dictionary>
