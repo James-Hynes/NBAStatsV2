@@ -739,8 +739,6 @@ class Game(Stat):
                   'SeasonType': 'Regular Season', 'StartPeriod': '1', 'StartRange': '0'}
         super().__init__('http://stats.nba.com/stats/playbyplayv2?', params, kwargs)
 
-        print(self.tech_list)
-
     @property
     def tech_list(self):
         tech_list = []
@@ -750,5 +748,3 @@ class Game(Stat):
             elif item['HOMEDESCRIPTION'] and item['HOMEDESCRIPTION'].__contains__('T.Foul'):
                 tech_list.append(item)
         return tech_list
-
-Game(GameList().list[2])

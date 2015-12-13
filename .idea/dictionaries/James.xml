@@ -4,7 +4,10 @@
       <w>cfid</w>
       <w>cfparams</w>
       <w>eventmsgtype</w>
+      <w>eventnum</w>
       <w>homedescription</w>
+      <w>neutraldescription</w>
+      <w>scoremargin</w>
       <w>teamlist</w>
     </words>
   </dictionary>
