@@ -1,12 +1,14 @@
 <component name="ProjectDictionaryState">
   <dictionary name="James">
     <words>
+      <w>awaydescription</w>
       <w>cfid</w>
       <w>cfparams</w>
       <w>eventmsgtype</w>
       <w>eventnum</w>
       <w>homedescription</w>
       <w>neutraldescription</w>
+      <w>pctimestring</w>
       <w>scoremargin</w>
       <w>teamlist</w>
     </words>

@@ -743,8 +743,15 @@ class Game(Stat):
     def tech_list(self):
         tech_list = []
         for item in self.list[0]:
-            if item['VISITORDESCRIPTION'] and item['VISITORDESCRIPTION'].__contains__('T.Foul'):
+            if item['VISITORDESCRIPTION'] and (item['VISITORDESCRIPTION'].lower().__contains__('t.foul') and not item['VISITORDESCRIPTION'].lower().__contains__('3 sec')):
                 tech_list.append(item)
-            elif item['HOMEDESCRIPTION'] and item['HOMEDESCRIPTION'].__contains__('T.Foul'):
+            elif item['HOMEDESCRIPTION'] and (item['HOMEDESCRIPTION'].lower().__contains__('t.foul') and not item['HOMEDESCRIPTION'].lower().__contains__('3 sec')):
                 tech_list.append(item)
         return tech_list
+
+    @property
+    def away_home(self):
+        home = [item['PLAYER1_TEAM_ABBREVIATION'] for item in self.list[0] if item['HOMEDESCRIPTION']][0]
+        away = [item['PLAYER1_TEAM_ABBREVIATION'] for item in self.list[0] if item['VISITORDESCRIPTION']][0]
+
+        return [away, home]
