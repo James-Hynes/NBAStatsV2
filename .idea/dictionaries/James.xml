@@ -7,10 +7,14 @@
       <w>eventmsgtype</w>
       <w>eventnum</w>
       <w>homedescription</w>
+      <w>nene</w>
       <w>neutraldescription</w>
       <w>pctimestring</w>
+      <w>playercode</w>
       <w>scoremargin</w>
       <w>teamlist</w>
+      <w>udate</w>
+      <w>zeller</w>
     </words>
   </dictionary>
 </component>

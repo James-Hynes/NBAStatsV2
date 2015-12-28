@@ -1,4 +1,4 @@
-from DataGather import *
+from lib.DataGather import *
 
 
 class Player:

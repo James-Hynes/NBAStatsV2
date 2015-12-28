@@ -1,0 +1,3731 @@
+[
+    {
+        "game": "0021500031",
+        "techs": []
+    },
+    {
+        "game": "0021500125",
+        "techs": []
+    },
+    {
+        "game": "0021500409",
+        "techs": []
+    },
+    {
+        "game": "0021500035",
+        "techs": [
+            {
+                "final_score": "119 - 108",
+                "margin_change": -2,
+                "original_score": "111 - 98",
+                "team": "GSW",
+                "time_committed": "7:50"
+            },
+            {
+                "final_score": "134 - 120",
+                "margin_change": -3,
+                "original_score": "123 - 112",
+                "team": "NOP",
+                "time_committed": "3:01"
+            }
+        ]
+    },
+    {
+        "game": "0021500053",
+        "techs": []
+    },
+    {
+        "game": "0021500391",
+        "techs": [
+            {
+                "final_score": "74 - 77",
+                "margin_change": 0,
+                "original_score": "74 - 77",
+                "team": "DET",
+                "time_committed": "0:02"
+            },
+            {
+                "final_score": "87 - 85",
+                "margin_change": -5,
+                "original_score": "77 - 80",
+                "team": "DET",
+                "time_committed": "10:01"
+            }
+        ]
+    },
+    {
+        "game": "0021500022",
+        "techs": []
+    },
+    {
+        "game": "0021500236",
+        "techs": [
+            {
+                "final_score": "91 - 74",
+                "margin_change": -5,
+                "original_score": "78 - 66",
+                "team": "PHX",
+                "time_committed": "8:25"
+            }
+        ]
+    },
+    {
+        "game": "0021500221",
+        "techs": [
+            {
+                "final_score": "112 - 101",
+                "margin_change": -7,
+                "original_score": "101 - 97",
+                "team": "MIL",
+                "time_committed": "9:25"
+            },
+            {
+                "final_score": "121 - 112",
+                "margin_change": 0,
+                "original_score": "113 - 104",
+                "team": "MIL",
+                "time_committed": "4:57"
+            }
+        ]
+    },
+    {
+        "game": "0021500376",
+        "techs": []
+    },
+    {
+        "game": "0021500381",
+        "techs": []
+    },
+    {
+        "game": "0021500314",
+        "techs": [
+            {
+                "final_score": "131 - 123",
+                "margin_change": -2,
+                "original_score": "129 - 123",
+                "team": "IND",
+                "time_committed": "0:24"
+            }
+        ]
+    },
+    {
+        "game": "0021500270",
+        "techs": []
+    },
+    {
+        "game": "0021500338",
+        "techs": [
+            {
+                "final_score": "59 - 54",
+                "margin_change": 0,
+                "original_score": "58 - 53",
+                "team": "CHA",
+                "time_committed": "1:06"
+            },
+            {
+                "final_score": "59 - 54",
+                "margin_change": 0,
+                "original_score": "58 - 53",
+                "team": "CHA",
+                "time_committed": "1:06"
+            },
+            {
+                "final_score": "93 - 73",
+                "margin_change": 2,
+                "original_score": "91 - 69",
+                "team": "MEM",
+                "time_committed": "1:30"
+            }
+        ]
+    },
+    {
+        "game": "0021500097",
+        "techs": []
+    },
+    {
+        "game": "0021500325",
+        "techs": []
+    },
+    {
+        "game": "0021500316",
+        "techs": []
+    },
+    {
+        "game": "0021500107",
+        "techs": []
+    },
+    {
+        "game": "0021500202",
+        "techs": []
+    },
+    {
+        "game": "0021500177",
+        "techs": [
+            {
+                "final_score": "51 - 66",
+                "margin_change": -3,
+                "original_score": "37 - 55",
+                "team": "LAC",
+                "time_committed": "4:36"
+            }
+        ]
+    },
+    {
+        "game": "0021500281",
+        "techs": []
+    },
+    {
+        "game": "0021500336",
+        "techs": []
+    },
+    {
+        "game": "0021500349",
+        "techs": []
+    },
+    {
+        "game": "0021500210",
+        "techs": []
+    },
+    {
+        "game": "0021500081",
+        "techs": []
+    },
+    {
+        "game": "0021500456",
+        "techs": [
+            {
+                "final_score": "112 - 122",
+                "margin_change": 0,
+                "original_score": "108 - 118",
+                "team": "DEN",
+                "time_committed": "1:53"
+            }
+        ]
+    },
+    {
+        "game": "0021500155",
+        "techs": []
+    },
+    {
+        "game": "0021500397",
+        "techs": [
+            {
+                "final_score": "22 - 24",
+                "margin_change": 0,
+                "original_score": "8 - 10",
+                "team": "GSW",
+                "time_committed": "8:40"
+            },
+            {
+                "final_score": "100 - 94",
+                "margin_change": 5,
+                "original_score": "96 - 85",
+                "team": "GSW",
+                "time_committed": "11:08"
+            }
+        ]
+    },
+    {
+        "game": "0021500198",
+        "techs": [
+            {
+                "final_score": "99 - 103",
+                "margin_change": -1,
+                "original_score": "92 - 95",
+                "team": "PHX",
+                "time_committed": "9:26"
+            }
+        ]
+    },
+    {
+        "game": "0021500190",
+        "techs": []
+    },
+    {
+        "game": "0021500012",
+        "techs": []
+    },
+    {
+        "game": "0021500435",
+        "techs": []
+    },
+    {
+        "game": "0021500293",
+        "techs": [
+            {
+                "final_score": "103 - 106",
+                "margin_change": -3,
+                "original_score": "93 - 93",
+                "team": "SAC",
+                "time_committed": "8:14"
+            }
+        ]
+    },
+    {
+        "game": "0021500209",
+        "techs": []
+    },
+    {
+        "game": "0021500245",
+        "techs": []
+    },
+    {
+        "game": "0021500225",
+        "techs": [
+            {
+                "final_score": "55 - 60",
+                "margin_change": -3,
+                "original_score": "44 - 52",
+                "team": "PHX",
+                "time_committed": "4:18"
+            },
+            {
+                "final_score": "72 - 71",
+                "margin_change": -1,
+                "original_score": "68 - 66",
+                "team": "NOP",
+                "time_committed": "9:00"
+            }
+        ]
+    },
+    {
+        "game": "0021500179",
+        "techs": [
+            {
+                "final_score": "95 - 120",
+                "margin_change": -1,
+                "original_score": "88 - 114",
+                "team": "BOS",
+                "time_committed": "2:09"
+            }
+        ]
+    },
+    {
+        "game": "0021500059",
+        "techs": []
+    },
+    {
+        "game": "0021500157",
+        "techs": []
+    },
+    {
+        "game": "0021500374",
+        "techs": []
+    },
+    {
+        "game": "0021500098",
+        "techs": [
+            {
+                "final_score": "47 - 57",
+                "margin_change": -1,
+                "original_score": "47 - 56",
+                "team": "DET",
+                "time_committed": "0:02"
+            },
+            {
+                "final_score": "102 - 98",
+                "margin_change": 13,
+                "original_score": "87 - 96",
+                "team": "DET",
+                "time_committed": "8:01"
+            },
+            {
+                "final_score": "102 - 98",
+                "margin_change": 13,
+                "original_score": "87 - 96",
+                "team": "DET",
+                "time_committed": "8:01"
+            },
+            {
+                "final_score": "104 - 98",
+                "margin_change": 14,
+                "original_score": "89 - 97",
+                "team": "DET",
+                "time_committed": "7:38"
+            }
+        ]
+    },
+    {
+        "game": "0021500428",
+        "techs": []
+    },
+    {
+        "game": "0021500115",
+        "techs": []
+    },
+    {
+        "game": "0021500083",
+        "techs": []
+    },
+    {
+        "game": "0021500398",
+        "techs": [
+            {
+                "final_score": "41 - 67",
+                "margin_change": 4,
+                "original_score": "37 - 67",
+                "team": "LAL",
+                "time_committed": "0:26"
+            },
+            {
+                "final_score": "78 - 118",
+                "margin_change": -6,
+                "original_score": "72 - 118",
+                "team": "OKC",
+                "time_committed": "1:38"
+            }
+        ]
+    },
+    {
+        "game": "0021500064",
+        "techs": [
+            {
+                "final_score": "48 - 52",
+                "margin_change": 3,
+                "original_score": "43 - 44",
+                "team": "HOU",
+                "time_committed": "9:00"
+            }
+        ]
+    },
+    {
+        "game": "0021500305",
+        "techs": []
+    },
+    {
+        "game": "0021500449",
+        "techs": []
+    },
+    {
+        "game": "0021500051",
+        "techs": []
+    },
+    {
+        "game": "0021500112",
+        "techs": []
+    },
+    {
+        "game": "0021500297",
+        "techs": []
+    },
+    {
+        "game": "0021500364",
+        "techs": []
+    },
+    {
+        "game": "0021500346",
+        "techs": [
+            {
+                "final_score": "64 - 83",
+                "margin_change": -6,
+                "original_score": "58 - 71",
+                "team": "IND",
+                "time_committed": "9:44"
+            }
+        ]
+    },
+    {
+        "game": "0021500200",
+        "techs": []
+    },
+    {
+        "game": "0021500067",
+        "techs": [
+            {
+                "final_score": "62 - 73",
+                "margin_change": -7,
+                "original_score": "55 - 59",
+                "team": "PHX",
+                "time_committed": "6:44"
+            }
+        ]
+    },
+    {
+        "game": "0021500076",
+        "techs": [
+            {
+                "final_score": "74 - 100",
+                "margin_change": -6,
+                "original_score": "72 - 92",
+                "team": "WAS",
+                "time_committed": "3:42"
+            }
+        ]
+    },
+    {
+        "game": "0021500106",
+        "techs": []
+    },
+    {
+        "game": "0021500126",
+        "techs": [
+            {
+                "final_score": "49 - 58",
+                "margin_change": -7,
+                "original_score": "48 - 50",
+                "team": "LAC",
+                "time_committed": "2:36"
+            }
+        ]
+    },
+    {
+        "game": "0021500199",
+        "techs": []
+    },
+    {
+        "game": "0021500203",
+        "techs": []
+    },
+    {
+        "game": "0021500101",
+        "techs": [
+            {
+                "final_score": "101 - 96",
+                "margin_change": -5,
+                "original_score": "94 - 84",
+                "team": "ATL",
+                "time_committed": "10:48"
+            }
+        ]
+    },
+    {
+        "game": "0021500118",
+        "techs": [
+            {
+                "final_score": "72 - 84",
+                "margin_change": 0,
+                "original_score": "67 - 79",
+                "team": "LAC",
+                "time_committed": "4:44"
+            }
+        ]
+    },
+    {
+        "game": "0021500027",
+        "techs": []
+    },
+    {
+        "game": "0021500044",
+        "techs": []
+    },
+    {
+        "game": "0021500442",
+        "techs": []
+    },
+    {
+        "game": "0021500034",
+        "techs": [
+            {
+                "final_score": "77 - 79",
+                "margin_change": -11,
+                "original_score": "69 - 60",
+                "team": "NYK",
+                "time_committed": "7:10"
+            },
+            {
+                "final_score": "87 - 90",
+                "margin_change": 2,
+                "original_score": "82 - 83",
+                "team": "WAS",
+                "time_committed": "1:26"
+            }
+        ]
+    },
+    {
+        "game": "0021500254",
+        "techs": [
+            {
+                "final_score": "37 - 62",
+                "margin_change": 5,
+                "original_score": "28 - 48",
+                "team": "DET",
+                "time_committed": "5:21"
+            }
+        ]
+    },
+    {
+        "game": "0021500268",
+        "techs": []
+    },
+    {
+        "game": "0021500302",
+        "techs": []
+    },
+    {
+        "game": "0021500404",
+        "techs": [
+            {
+                "final_score": "86 - 82",
+                "margin_change": -2,
+                "original_score": "73 - 71",
+                "team": "MIA",
+                "time_committed": "4:48"
+            },
+            {
+                "final_score": "86 - 82",
+                "margin_change": -2,
+                "original_score": "77 - 71",
+                "team": "POR",
+                "time_committed": "4:20"
+            },
+            {
+                "final_score": "86 - 82",
+                "margin_change": -2,
+                "original_score": "82 - 80",
+                "team": "MIA",
+                "time_committed": "1:37"
+            },
+            {
+                "final_score": "92 - 91",
+                "margin_change": 3,
+                "original_score": "86 - 82",
+                "team": null,
+                "time_committed": "12:00"
+            }
+        ]
+    },
+    {
+        "game": "0021500232",
+        "techs": [
+            {
+                "final_score": "47 - 54",
+                "margin_change": 2,
+                "original_score": "37 - 42",
+                "team": null,
+                "time_committed": "4:51"
+            }
+        ]
+    },
+    {
+        "game": "0021500233",
+        "techs": [
+            {
+                "final_score": "85 - 82",
+                "margin_change": 1,
+                "original_score": "77 - 73",
+                "team": "MEM",
+                "time_committed": "4:34"
+            },
+            {
+                "final_score": "116 - 101",
+                "margin_change": -1,
+                "original_score": "113 - 99",
+                "team": "MEM",
+                "time_committed": "1:59"
+            }
+        ]
+    },
+    {
+        "game": "0021500175",
+        "techs": [
+            {
+                "final_score": "46 - 56",
+                "margin_change": -1,
+                "original_score": "41 - 50",
+                "team": "SAC",
+                "time_committed": "3:03"
+            }
+        ]
+    },
+    {
+        "game": "0021500165",
+        "techs": []
+    },
+    {
+        "game": "0021500084",
+        "techs": []
+    },
+    {
+        "game": "0021500432",
+        "techs": [
+            {
+                "final_score": "23 - 26",
+                "margin_change": 3,
+                "original_score": "23 - 23",
+                "team": "POR",
+                "time_committed": "0:21"
+            },
+            {
+                "final_score": "34 - 36",
+                "margin_change": -3,
+                "original_score": "27 - 32",
+                "team": "POR",
+                "time_committed": "8:22"
+            },
+            {
+                "final_score": "36 - 53",
+                "margin_change": 7,
+                "original_score": "36 - 46",
+                "team": "POR",
+                "time_committed": "1:32"
+            }
+        ]
+    },
+    {
+        "game": "0021500393",
+        "techs": []
+    },
+    {
+        "game": "0021500361",
+        "techs": []
+    },
+    {
+        "game": "0021500252",
+        "techs": []
+    },
+    {
+        "game": "0021500163",
+        "techs": [
+            {
+                "final_score": "115 - 98",
+                "margin_change": 1,
+                "original_score": "106 - 90",
+                "team": "NOP",
+                "time_committed": "2:47"
+            }
+        ]
+    },
+    {
+        "game": "0021500176",
+        "techs": [
+            {
+                "final_score": "48 - 63",
+                "margin_change": -5,
+                "original_score": "43 - 63",
+                "team": "CLE",
+                "time_committed": "0:40"
+            },
+            {
+                "final_score": "100 - 113",
+                "margin_change": -4,
+                "original_score": "92 - 101",
+                "team": "MIL",
+                "time_committed": "5:16"
+            }
+        ]
+    },
+    {
+        "game": "0021500158",
+        "techs": []
+    },
+    {
+        "game": "0021500267",
+        "techs": []
+    },
+    {
+        "game": "0021500074",
+        "techs": []
+    },
+    {
+        "game": "0021500379",
+        "techs": [
+            {
+                "final_score": "67 - 81",
+                "margin_change": -3,
+                "original_score": "60 - 71",
+                "team": "WAS",
+                "time_committed": "6:47"
+            }
+        ]
+    },
+    {
+        "game": "0021500350",
+        "techs": [
+            {
+                "final_score": "77 - 65",
+                "margin_change": 5,
+                "original_score": "62 - 55",
+                "team": "WAS",
+                "time_committed": "9:10"
+            }
+        ]
+    },
+    {
+        "game": "0021500300",
+        "techs": []
+    },
+    {
+        "game": "0021500164",
+        "techs": [
+            {
+                "final_score": "98 - 101",
+                "margin_change": -3,
+                "original_score": "89 - 95",
+                "team": "GSW",
+                "time_committed": "9:15"
+            }
+        ]
+    },
+    {
+        "game": "0021500006",
+        "techs": [
+            {
+                "final_score": "81 - 63",
+                "margin_change": 10,
+                "original_score": "68 - 60",
+                "team": "CHI",
+                "time_committed": "7:40"
+            }
+        ]
+    },
+    {
+        "game": "0021500365",
+        "techs": []
+    },
+    {
+        "game": "0021500288",
+        "techs": [
+            {
+                "final_score": "53 - 52",
+                "margin_change": -5,
+                "original_score": "45 - 39",
+                "team": "CLE",
+                "time_committed": "3:33"
+            }
+        ]
+    },
+    {
+        "game": "0021500318",
+        "techs": []
+    },
+    {
+        "game": "0021500282",
+        "techs": [
+            {
+                "final_score": "83 - 63",
+                "margin_change": 1,
+                "original_score": "70 - 49",
+                "team": "SAC",
+                "time_committed": "6:30"
+            },
+            {
+                "final_score": "83 - 63",
+                "margin_change": 1,
+                "original_score": "70 - 49",
+                "team": "SAC",
+                "time_committed": "6:30"
+            }
+        ]
+    },
+    {
+        "game": "0021500306",
+        "techs": [
+            {
+                "final_score": "114 - 103",
+                "margin_change": -3,
+                "original_score": "111 - 103",
+                "team": "MIA",
+                "time_committed": "0:28"
+            },
+            {
+                "final_score": "114 - 103",
+                "margin_change": -3,
+                "original_score": "111 - 103",
+                "team": "MIA",
+                "time_committed": "0:28"
+            }
+        ]
+    },
+    {
+        "game": "0021500228",
+        "techs": []
+    },
+    {
+        "game": "0021500185",
+        "techs": [
+            {
+                "final_score": "76 - 82",
+                "margin_change": 0,
+                "original_score": "69 - 75",
+                "team": null,
+                "time_committed": "5:59"
+            },
+            {
+                "final_score": "114 - 107",
+                "margin_change": -1,
+                "original_score": "103 - 97",
+                "team": "DEN",
+                "time_committed": "3:16"
+            }
+        ]
+    },
+    {
+        "game": "0021500146",
+        "techs": []
+    },
+    {
+        "game": "0021500090",
+        "techs": []
+    },
+    {
+        "game": "0021500038",
+        "techs": []
+    },
+    {
+        "game": "0021500410",
+        "techs": []
+    },
+    {
+        "game": "0021500372",
+        "techs": []
+    },
+    {
+        "game": "0021500370",
+        "techs": []
+    },
+    {
+        "game": "0021500266",
+        "techs": []
+    },
+    {
+        "game": "0021500086",
+        "techs": []
+    },
+    {
+        "game": "0021500123",
+        "techs": []
+    },
+    {
+        "game": "0021500430",
+        "techs": []
+    },
+    {
+        "game": "0021500024",
+        "techs": [
+            {
+                "final_score": "47 - 45",
+                "margin_change": -1,
+                "original_score": "36 - 33",
+                "team": "TOR",
+                "time_committed": "7:27"
+            },
+            {
+                "final_score": "47 - 46",
+                "margin_change": 2,
+                "original_score": "36 - 33",
+                "team": "BOS",
+                "time_committed": "7:19"
+            },
+            {
+                "final_score": "54 - 54",
+                "margin_change": 1,
+                "original_score": "46 - 45",
+                "team": "BOS",
+                "time_committed": "3:33"
+            }
+        ]
+    },
+    {
+        "game": "0021500178",
+        "techs": []
+    },
+    {
+        "game": "0021500455",
+        "techs": []
+    },
+    {
+        "game": "0021500368",
+        "techs": [
+            {
+                "final_score": "23 - 19",
+                "margin_change": 5,
+                "original_score": "11 - 12",
+                "team": "DEN",
+                "time_committed": "5:57"
+            }
+        ]
+    },
+    {
+        "game": "0021500362",
+        "techs": []
+    },
+    {
+        "game": "0021500352",
+        "techs": [
+            {
+                "final_score": "76 - 86",
+                "margin_change": -5,
+                "original_score": "74 - 79",
+                "team": "NYK",
+                "time_committed": "1:46"
+            }
+        ]
+    },
+    {
+        "game": "0021500290",
+        "techs": []
+    },
+    {
+        "game": "0021500411",
+        "techs": [
+            {
+                "final_score": "13 - 21",
+                "margin_change": 3,
+                "original_score": "4 - 9",
+                "team": "BOS",
+                "time_committed": "7:57"
+            }
+        ]
+    },
+    {
+        "game": "0021500260",
+        "techs": []
+    },
+    {
+        "game": "0021500069",
+        "techs": []
+    },
+    {
+        "game": "0021500167",
+        "techs": []
+    },
+    {
+        "game": "0021500019",
+        "techs": []
+    },
+    {
+        "game": "0021500017",
+        "techs": [
+            {
+                "final_score": "51 - 60",
+                "margin_change": -3,
+                "original_score": "39 - 51",
+                "team": "LAL",
+                "time_committed": "3:14"
+            }
+        ]
+    },
+    {
+        "game": "0021500015",
+        "techs": []
+    },
+    {
+        "game": "0021500030",
+        "techs": [
+            {
+                "final_score": "28 - 29",
+                "margin_change": 1,
+                "original_score": "18 - 18",
+                "team": "HOU",
+                "time_committed": "4:16"
+            }
+        ]
+    },
+    {
+        "game": "0021500005",
+        "techs": []
+    },
+    {
+        "game": "0021500013",
+        "techs": []
+    },
+    {
+        "game": "0021500018",
+        "techs": [
+            {
+                "final_score": "15 - 7",
+                "margin_change": -3,
+                "original_score": "5 - 0",
+                "team": "IND",
+                "time_committed": "10:29"
+            },
+            {
+                "final_score": "29 - 20",
+                "margin_change": -2,
+                "original_score": "21 - 10",
+                "team": "MEM",
+                "time_committed": "3:53"
+            }
+        ]
+    },
+    {
+        "game": "0021500451",
+        "techs": []
+    },
+    {
+        "game": "0021500441",
+        "techs": []
+    },
+    {
+        "game": "0021500447",
+        "techs": [
+            {
+                "final_score": "111 - 96",
+                "margin_change": 5,
+                "original_score": "108 - 88",
+                "team": "BKN",
+                "time_committed": "2:51"
+            }
+        ]
+    },
+    {
+        "game": "0021500334",
+        "techs": [
+            {
+                "final_score": "103 - 69",
+                "margin_change": -2,
+                "original_score": "92 - 56",
+                "team": "CLE",
+                "time_committed": "8:26"
+            }
+        ]
+    },
+    {
+        "game": "0021500422",
+        "techs": [
+            {
+                "final_score": "43 - 55",
+                "margin_change": -1,
+                "original_score": "30 - 43",
+                "team": "DEN",
+                "time_committed": "7:57"
+            }
+        ]
+    },
+    {
+        "game": "0021500340",
+        "techs": []
+    },
+    {
+        "game": "0021500238",
+        "techs": [
+            {
+                "final_score": "72 - 90",
+                "margin_change": 0,
+                "original_score": "63 - 81",
+                "team": "NOP",
+                "time_committed": "2:48"
+            }
+        ]
+    },
+    {
+        "game": "0021500301",
+        "techs": [
+            {
+                "final_score": "81 - 102",
+                "margin_change": -8,
+                "original_score": "68 - 97",
+                "team": "DET",
+                "time_committed": "8:58"
+            }
+        ]
+    },
+    {
+        "game": "0021500212",
+        "techs": [
+            {
+                "final_score": "111 - 94",
+                "margin_change": -5,
+                "original_score": "103 - 91",
+                "team": "DEN",
+                "time_committed": "3:33"
+            }
+        ]
+    },
+    {
+        "game": "0021500312",
+        "techs": [
+            {
+                "final_score": "53 - 44",
+                "margin_change": -3,
+                "original_score": "50 - 44",
+                "team": "NOP",
+                "time_committed": "1:36"
+            }
+        ]
+    },
+    {
+        "game": "0021500229",
+        "techs": [
+            {
+                "final_score": "30 - 47",
+                "margin_change": 5,
+                "original_score": "28 - 40",
+                "team": null,
+                "time_committed": "7:07"
+            },
+            {
+                "final_score": "53 - 76",
+                "margin_change": 3,
+                "original_score": "49 - 69",
+                "team": "BOS",
+                "time_committed": "6:14"
+            },
+            {
+                "final_score": "78 - 111",
+                "margin_change": -1,
+                "original_score": "73 - 107",
+                "team": "BOS",
+                "time_committed": "3:52"
+            }
+        ]
+    },
+    {
+        "game": "0021500214",
+        "techs": []
+    },
+    {
+        "game": "0021500208",
+        "techs": []
+    },
+    {
+        "game": "0021500197",
+        "techs": []
+    },
+    {
+        "game": "0021500154",
+        "techs": [
+            {
+                "final_score": "32 - 44",
+                "margin_change": 5,
+                "original_score": "24 - 31",
+                "team": "BOS",
+                "time_committed": "11:11"
+            },
+            {
+                "final_score": "75 - 68",
+                "margin_change": -5,
+                "original_score": "62 - 60",
+                "team": "BOS",
+                "time_committed": "6:45"
+            },
+            {
+                "final_score": "105 - 81",
+                "margin_change": 3,
+                "original_score": "101 - 74",
+                "team": "BOS",
+                "time_committed": "7:58"
+            }
+        ]
+    },
+    {
+        "game": "0021500100",
+        "techs": []
+    },
+    {
+        "game": "0021500137",
+        "techs": []
+    },
+    {
+        "game": "0021500109",
+        "techs": [
+            {
+                "final_score": "60 - 52",
+                "margin_change": -8,
+                "original_score": "50 - 50",
+                "team": "TOR",
+                "time_committed": "1:46"
+            }
+        ]
+    },
+    {
+        "game": "0021500016",
+        "techs": []
+    },
+    {
+        "game": "0021500003",
+        "techs": [
+            {
+                "final_score": "49 - 59",
+                "margin_change": -2,
+                "original_score": "47 - 55",
+                "team": "NOP",
+                "time_committed": "3:30"
+            }
+        ]
+    },
+    {
+        "game": "0021500014",
+        "techs": [
+            {
+                "final_score": "88 - 66",
+                "margin_change": 4,
+                "original_score": "84 - 58",
+                "team": "PHX",
+                "time_committed": "3:42"
+            }
+        ]
+    },
+    {
+        "game": "0021500445",
+        "techs": []
+    },
+    {
+        "game": "0021500417",
+        "techs": [
+            {
+                "final_score": "19 - 33",
+                "margin_change": 2,
+                "original_score": "9 - 25",
+                "team": "PHX",
+                "time_committed": "4:15"
+            }
+        ]
+    },
+    {
+        "game": "0021500315",
+        "techs": []
+    },
+    {
+        "game": "0021500311",
+        "techs": []
+    },
+    {
+        "game": "0021500171",
+        "techs": [
+            {
+                "final_score": "25 - 21",
+                "margin_change": -3,
+                "original_score": "16 - 15",
+                "team": "NOP",
+                "time_committed": "5:14"
+            },
+            {
+                "final_score": "45 - 53",
+                "margin_change": 5,
+                "original_score": "41 - 44",
+                "team": "NOP",
+                "time_committed": "2:02"
+            }
+        ]
+    },
+    {
+        "game": "0021500049",
+        "techs": []
+    },
+    {
+        "game": "0021500140",
+        "techs": [
+            {
+                "final_score": "82 - 67",
+                "margin_change": 0,
+                "original_score": "75 - 60",
+                "team": "HOU",
+                "time_committed": "2:32"
+            },
+            {
+                "final_score": "103 - 91",
+                "margin_change": 3,
+                "original_score": "92 - 77",
+                "team": "HOU",
+                "time_committed": "6:44"
+            }
+        ]
+    },
+    {
+        "game": "0021500452",
+        "techs": [
+            {
+                "final_score": "79 - 77",
+                "margin_change": 7,
+                "original_score": "77 - 68",
+                "team": "UTA",
+                "time_committed": "2:43"
+            }
+        ]
+    },
+    {
+        "game": "0021500399",
+        "techs": [
+            {
+                "final_score": "51 - 54",
+                "margin_change": 7,
+                "original_score": "45 - 41",
+                "team": "WAS",
+                "time_committed": "4:57"
+            }
+        ]
+    },
+    {
+        "game": "0021500389",
+        "techs": [
+            {
+                "final_score": "95 - 92",
+                "margin_change": 5,
+                "original_score": "84 - 86",
+                "team": "ATL",
+                "time_committed": "7:09"
+            }
+        ]
+    },
+    {
+        "game": "0021500249",
+        "techs": [
+            {
+                "final_score": "45 - 53",
+                "margin_change": 1,
+                "original_score": "44 - 51",
+                "team": "ORL",
+                "time_committed": "1:29"
+            },
+            {
+                "final_score": "89 - 103",
+                "margin_change": 0,
+                "original_score": "80 - 94",
+                "team": "ORL",
+                "time_committed": "5:34"
+            }
+        ]
+    },
+    {
+        "game": "0021500383",
+        "techs": [
+            {
+                "final_score": "44 - 54",
+                "margin_change": -3,
+                "original_score": "36 - 43",
+                "team": "TOR",
+                "time_committed": "4:13"
+            },
+            {
+                "final_score": "54 - 66",
+                "margin_change": 0,
+                "original_score": "48 - 60",
+                "team": "TOR",
+                "time_committed": "10:11"
+            }
+        ]
+    },
+    {
+        "game": "0021500342",
+        "techs": [
+            {
+                "final_score": "53 - 60",
+                "margin_change": 4,
+                "original_score": "49 - 52",
+                "team": "SAS",
+                "time_committed": "11:35"
+            }
+        ]
+    },
+    {
+        "game": "0021500321",
+        "techs": [
+            {
+                "final_score": "56 - 47",
+                "margin_change": -2,
+                "original_score": "49 - 38",
+                "team": "HOU",
+                "time_committed": "4:22"
+            }
+        ]
+    },
+    {
+        "game": "0021500294",
+        "techs": []
+    },
+    {
+        "game": "0021500324",
+        "techs": [
+            {
+                "final_score": "92 - 78",
+                "margin_change": 7,
+                "original_score": "80 - 73",
+                "team": "LAC",
+                "time_committed": "8:36"
+            }
+        ]
+    },
+    {
+        "game": "0021500205",
+        "techs": [
+            {
+                "final_score": "62 - 88",
+                "margin_change": -3,
+                "original_score": "62 - 85",
+                "team": "DET",
+                "time_committed": "0:27"
+            }
+        ]
+    },
+    {
+        "game": "0021500284",
+        "techs": []
+    },
+    {
+        "game": "0021500223",
+        "techs": []
+    },
+    {
+        "game": "0021500211",
+        "techs": []
+    },
+    {
+        "game": "0021500191",
+        "techs": [
+            {
+                "final_score": "59 - 77",
+                "margin_change": -7,
+                "original_score": "47 - 72",
+                "team": null,
+                "time_committed": "6:06"
+            },
+            {
+                "final_score": "64 - 77",
+                "margin_change": -6,
+                "original_score": "55 - 74",
+                "team": "CLE",
+                "time_committed": "4:36"
+            }
+        ]
+    },
+    {
+        "game": "0021500104",
+        "techs": []
+    },
+    {
+        "game": "0021500093",
+        "techs": []
+    },
+    {
+        "game": "0021500172",
+        "techs": []
+    },
+    {
+        "game": "0021500041",
+        "techs": [
+            {
+                "final_score": "75 - 75",
+                "margin_change": -3,
+                "original_score": "75 - 72",
+                "team": null,
+                "time_committed": "2:12"
+            }
+        ]
+    },
+    {
+        "game": "0021500431",
+        "techs": []
+    },
+    {
+        "game": "0021500032",
+        "techs": []
+    },
+    {
+        "game": "0021500425",
+        "techs": []
+    },
+    {
+        "game": "0021500405",
+        "techs": []
+    },
+    {
+        "game": "0021500390",
+        "techs": []
+    },
+    {
+        "game": "0021500444",
+        "techs": []
+    },
+    {
+        "game": "0021500353",
+        "techs": []
+    },
+    {
+        "game": "0021500351",
+        "techs": [
+            {
+                "final_score": "64 - 70",
+                "margin_change": 4,
+                "original_score": "54 - 64",
+                "team": "GSW",
+                "time_committed": "10:01"
+            }
+        ]
+    },
+    {
+        "game": "0021500283",
+        "techs": [
+            {
+                "final_score": "81 - 99",
+                "margin_change": 2,
+                "original_score": "75 - 95",
+                "team": "BKN",
+                "time_committed": "8:01"
+            }
+        ]
+    },
+    {
+        "game": "0021500244",
+        "techs": [
+            {
+                "final_score": "44 - 53",
+                "margin_change": -2,
+                "original_score": "31 - 42",
+                "team": "LAL",
+                "time_committed": "5:59"
+            }
+        ]
+    },
+    {
+        "game": "0021500274",
+        "techs": [
+            {
+                "final_score": "48 - 45",
+                "margin_change": 3,
+                "original_score": "38 - 32",
+                "team": null,
+                "time_committed": "5:25"
+            },
+            {
+                "final_score": "70 - 71",
+                "margin_change": -3,
+                "original_score": "55 - 59",
+                "team": "HOU",
+                "time_committed": "7:31"
+            }
+        ]
+    },
+    {
+        "game": "0021500296",
+        "techs": []
+    },
+    {
+        "game": "0021500269",
+        "techs": [
+            {
+                "final_score": "24 - 20",
+                "margin_change": -1,
+                "original_score": "19 - 14",
+                "team": "LAL",
+                "time_committed": "6:17"
+            }
+        ]
+    },
+    {
+        "game": "0021500242",
+        "techs": [
+            {
+                "final_score": "37 - 54",
+                "margin_change": -7,
+                "original_score": "37 - 47",
+                "team": "ATL",
+                "time_committed": "1:34"
+            }
+        ]
+    },
+    {
+        "game": "0021500170",
+        "techs": [
+            {
+                "final_score": "88 - 81",
+                "margin_change": 6,
+                "original_score": "81 - 68",
+                "team": "HOU",
+                "time_committed": "8:43"
+            }
+        ]
+    },
+    {
+        "game": "0021500141",
+        "techs": []
+    },
+    {
+        "game": "0021500139",
+        "techs": []
+    },
+    {
+        "game": "0021500102",
+        "techs": []
+    },
+    {
+        "game": "0021500289",
+        "techs": []
+    },
+    {
+        "game": "0021500412",
+        "techs": []
+    },
+    {
+        "game": "0021500068",
+        "techs": []
+    },
+    {
+        "game": "0021500072",
+        "techs": [
+            {
+                "final_score": "103 - 85",
+                "margin_change": 1,
+                "original_score": "86 - 69",
+                "team": "DAL",
+                "time_committed": "8:46"
+            }
+        ]
+    },
+    {
+        "game": "0021500401",
+        "techs": [
+            {
+                "final_score": "69 - 81",
+                "margin_change": 2,
+                "original_score": "58 - 68",
+                "team": "HOU",
+                "time_committed": "4:28"
+            }
+        ]
+    },
+    {
+        "game": "0021500429",
+        "techs": [
+            {
+                "final_score": "97 - 105",
+                "margin_change": 7,
+                "original_score": "86 - 101",
+                "team": "DET",
+                "time_committed": "4:56"
+            }
+        ]
+    },
+    {
+        "game": "0021500400",
+        "techs": []
+    },
+    {
+        "game": "0021500078",
+        "techs": [
+            {
+                "final_score": "102 - 108",
+                "margin_change": -6,
+                "original_score": "88 - 100",
+                "team": "CLE",
+                "time_committed": "3:51"
+            }
+        ]
+    },
+    {
+        "game": "0021500388",
+        "techs": [
+            {
+                "final_score": "89 - 68",
+                "margin_change": 3,
+                "original_score": "86 - 62",
+                "team": "PHI",
+                "time_committed": "3:11"
+            }
+        ]
+    },
+    {
+        "game": "0021500375",
+        "techs": [
+            {
+                "final_score": "26 - 27",
+                "margin_change": 0,
+                "original_score": "20 - 21",
+                "team": "MIN",
+                "time_committed": "1:44"
+            }
+        ]
+    },
+    {
+        "game": "0021500371",
+        "techs": [
+            {
+                "final_score": "64 - 75",
+                "margin_change": 5,
+                "original_score": "56 - 62",
+                "team": null,
+                "time_committed": "4:26"
+            }
+        ]
+    },
+    {
+        "game": "0021500385",
+        "techs": [
+            {
+                "final_score": "67 - 57",
+                "margin_change": -1,
+                "original_score": "55 - 46",
+                "team": "LAL",
+                "time_committed": "9:18"
+            }
+        ]
+    },
+    {
+        "game": "0021500369",
+        "techs": [
+            {
+                "final_score": "21 - 20",
+                "margin_change": 7,
+                "original_score": "5 - 11",
+                "team": "HOU",
+                "time_committed": "8:47"
+            },
+            {
+                "final_score": "50 - 57",
+                "margin_change": 1,
+                "original_score": "46 - 54",
+                "team": "HOU",
+                "time_committed": "2:00"
+            }
+        ]
+    },
+    {
+        "game": "0021500339",
+        "techs": []
+    },
+    {
+        "game": "0021500247",
+        "techs": [
+            {
+                "final_score": "99 - 107",
+                "margin_change": 0,
+                "original_score": "91 - 99",
+                "team": "MIN",
+                "time_committed": "1:38"
+            }
+        ]
+    },
+    {
+        "game": "0021500331",
+        "techs": []
+    },
+    {
+        "game": "0021500335",
+        "techs": []
+    },
+    {
+        "game": "0021500250",
+        "techs": []
+    },
+    {
+        "game": "0021500326",
+        "techs": []
+    },
+    {
+        "game": "0021500253",
+        "techs": [
+            {
+                "final_score": "78 - 65",
+                "margin_change": -4,
+                "original_score": "70 - 53",
+                "team": "IND",
+                "time_committed": "4:31"
+            }
+        ]
+    },
+    {
+        "game": "0021500194",
+        "techs": []
+    },
+    {
+        "game": "0021500150",
+        "techs": [
+            {
+                "final_score": "66 - 65",
+                "margin_change": -2,
+                "original_score": "56 - 57",
+                "team": "SAC",
+                "time_committed": "9:30"
+            }
+        ]
+    },
+    {
+        "game": "0021500136",
+        "techs": []
+    },
+    {
+        "game": "0021500144",
+        "techs": []
+    },
+    {
+        "game": "0021500088",
+        "techs": []
+    },
+    {
+        "game": "0021500201",
+        "techs": [
+            {
+                "final_score": "84 - 74",
+                "margin_change": 4,
+                "original_score": "75 - 69",
+                "team": "POR",
+                "time_committed": "3:55"
+            }
+        ]
+    },
+    {
+        "game": "0021500413",
+        "techs": []
+    },
+    {
+        "game": "0021500357",
+        "techs": [
+            {
+                "final_score": "59 - 71",
+                "margin_change": -1,
+                "original_score": "53 - 64",
+                "team": "TOR",
+                "time_committed": "6:23"
+            },
+            {
+                "final_score": "59 - 73",
+                "margin_change": -3,
+                "original_score": "56 - 67",
+                "team": "TOR",
+                "time_committed": "4:43"
+            }
+        ]
+    },
+    {
+        "game": "0021500378",
+        "techs": [
+            {
+                "final_score": "21 - 27",
+                "margin_change": -10,
+                "original_score": "17 - 13",
+                "team": "POR",
+                "time_committed": "5:42"
+            }
+        ]
+    },
+    {
+        "game": "0021500278",
+        "techs": []
+    },
+    {
+        "game": "0021500327",
+        "techs": [
+            {
+                "final_score": "85 - 106",
+                "margin_change": -4,
+                "original_score": "78 - 103",
+                "team": "UTA",
+                "time_committed": "3:01"
+            }
+        ]
+    },
+    {
+        "game": "0021500343",
+        "techs": []
+    },
+    {
+        "game": "0021500046",
+        "techs": []
+    },
+    {
+        "game": "0021500127",
+        "techs": []
+    },
+    {
+        "game": "0021500259",
+        "techs": [
+            {
+                "final_score": "26 - 20",
+                "margin_change": 2,
+                "original_score": "24 - 20",
+                "team": "GSW",
+                "time_committed": "0:51"
+            }
+        ]
+    },
+    {
+        "game": "0021500416",
+        "techs": []
+    },
+    {
+        "game": "0021500256",
+        "techs": [
+            {
+                "final_score": "52 - 53",
+                "margin_change": -13,
+                "original_score": "34 - 48",
+                "team": "OKC",
+                "time_committed": "3:32"
+            }
+        ]
+    },
+    {
+        "game": "0021500295",
+        "techs": [
+            {
+                "final_score": "63 - 77",
+                "margin_change": 7,
+                "original_score": "52 - 73",
+                "team": "NYK",
+                "time_committed": "7:04"
+            },
+            {
+                "final_score": "91 - 106",
+                "margin_change": 2,
+                "original_score": "89 - 106",
+                "team": "NYK",
+                "time_committed": "0:51"
+            }
+        ]
+    },
+    {
+        "game": "0021500119",
+        "techs": [
+            {
+                "final_score": "36 - 34",
+                "margin_change": 4,
+                "original_score": "26 - 28",
+                "team": "BKN",
+                "time_committed": "11:07"
+            }
+        ]
+    },
+    {
+        "game": "0021500117",
+        "techs": [
+            {
+                "final_score": "80 - 85",
+                "margin_change": 4,
+                "original_score": "75 - 76",
+                "team": null,
+                "time_committed": "12:00"
+            }
+        ]
+    },
+    {
+        "game": "0021500147",
+        "techs": [
+            {
+                "final_score": "45 - 71",
+                "margin_change": 2,
+                "original_score": "42 - 66",
+                "team": "CHA",
+                "time_committed": "0:57"
+            }
+        ]
+    },
+    {
+        "game": "0021500129",
+        "techs": []
+    },
+    {
+        "game": "0021500009",
+        "techs": [
+            {
+                "final_score": "78 - 84",
+                "margin_change": 6,
+                "original_score": "68 - 80",
+                "team": "IND",
+                "time_committed": "10:57"
+            },
+            {
+                "final_score": "95 - 98",
+                "margin_change": 1,
+                "original_score": "85 - 89",
+                "team": "IND",
+                "time_committed": "5:20"
+            }
+        ]
+    },
+    {
+        "game": "0021500168",
+        "techs": []
+    },
+    {
+        "game": "0021500187",
+        "techs": []
+    },
+    {
+        "game": "0021500103",
+        "techs": [
+            {
+                "final_score": "49 - 43",
+                "margin_change": 0,
+                "original_score": "49 - 43",
+                "team": "SAC",
+                "time_committed": "0:13"
+            }
+        ]
+    },
+    {
+        "game": "0021500001",
+        "techs": []
+    },
+    {
+        "game": "0021500050",
+        "techs": []
+    },
+    {
+        "game": "0021500453",
+        "techs": [
+            {
+                "final_score": "34 - 63",
+                "margin_change": -2,
+                "original_score": "31 - 58",
+                "team": "POR",
+                "time_committed": "2:00"
+            },
+            {
+                "final_score": "59 - 90",
+                "margin_change": -2,
+                "original_score": "54 - 83",
+                "team": "POR",
+                "time_committed": "2:20"
+            },
+            {
+                "final_score": "59 - 90",
+                "margin_change": 3,
+                "original_score": "57 - 85",
+                "team": "CLE",
+                "time_committed": "1:35"
+            }
+        ]
+    },
+    {
+        "game": "0021500011",
+        "techs": []
+    },
+    {
+        "game": "0021500042",
+        "techs": []
+    },
+    {
+        "game": "0021500437",
+        "techs": []
+    },
+    {
+        "game": "0021500319",
+        "techs": []
+    },
+    {
+        "game": "0021500313",
+        "techs": [
+            {
+                "final_score": "100 - 105",
+                "margin_change": 1,
+                "original_score": "87 - 93",
+                "team": "POR",
+                "time_committed": "3:30"
+            }
+        ]
+    },
+    {
+        "game": "0021500255",
+        "techs": []
+    },
+    {
+        "game": "0021500344",
+        "techs": [
+            {
+                "final_score": "57 - 44",
+                "margin_change": -3,
+                "original_score": "48 - 38",
+                "team": "BKN",
+                "time_committed": "1:46"
+            },
+            {
+                "final_score": "57 - 44",
+                "margin_change": -3,
+                "original_score": "48 - 38",
+                "team": "BKN",
+                "time_committed": "1:46"
+            }
+        ]
+    },
+    {
+        "game": "0021500366",
+        "techs": []
+    },
+    {
+        "game": "0021500359",
+        "techs": []
+    },
+    {
+        "game": "0021500358",
+        "techs": [
+            {
+                "final_score": "64 - 55",
+                "margin_change": 1,
+                "original_score": "54 - 46",
+                "team": "ORL",
+                "time_committed": "11:17"
+            }
+        ]
+    },
+    {
+        "game": "0021500143",
+        "techs": []
+    },
+    {
+        "game": "0021500087",
+        "techs": [
+            {
+                "final_score": "81 - 73",
+                "margin_change": -1,
+                "original_score": "76 - 69",
+                "team": "ORL",
+                "time_committed": "1:51"
+            }
+        ]
+    },
+    {
+        "game": "0021500010",
+        "techs": []
+    },
+    {
+        "game": "0021500396",
+        "techs": [
+            {
+                "final_score": "42 - 53",
+                "margin_change": 1,
+                "original_score": "34 - 46",
+                "team": "NOP",
+                "time_committed": "2:37"
+            }
+        ]
+    },
+    {
+        "game": "0021500433",
+        "techs": [
+            {
+                "final_score": "63 - 66",
+                "margin_change": 7,
+                "original_score": "59 - 55",
+                "team": "PHX",
+                "time_committed": "10:45"
+            }
+        ]
+    },
+    {
+        "game": "0021500380",
+        "techs": []
+    },
+    {
+        "game": "0021500408",
+        "techs": [
+            {
+                "final_score": "55 - 39",
+                "margin_change": 1,
+                "original_score": "48 - 31",
+                "team": "SAC",
+                "time_committed": "5:34"
+            },
+            {
+                "final_score": "71 - 58",
+                "margin_change": 5,
+                "original_score": "62 - 54",
+                "team": "TOR",
+                "time_committed": "7:22"
+            },
+            {
+                "final_score": "71 - 58",
+                "margin_change": 5,
+                "original_score": "62 - 54",
+                "team": "TOR",
+                "time_committed": "7:22"
+            }
+        ]
+    },
+    {
+        "game": "0021500419",
+        "techs": [
+            {
+                "final_score": "50 - 45",
+                "margin_change": 5,
+                "original_score": "42 - 42",
+                "team": "MEM",
+                "time_committed": "5:13"
+            },
+            {
+                "final_score": "104 - 90",
+                "margin_change": -1,
+                "original_score": "97 - 82",
+                "team": "MEM",
+                "time_committed": "3:31"
+            }
+        ]
+    },
+    {
+        "game": "0021500426",
+        "techs": []
+    },
+    {
+        "game": "0021500373",
+        "techs": []
+    },
+    {
+        "game": "0021500414",
+        "techs": []
+    },
+    {
+        "game": "0021500384",
+        "techs": []
+    },
+    {
+        "game": "0021500386",
+        "techs": []
+    },
+    {
+        "game": "0021500307",
+        "techs": [
+            {
+                "final_score": "101 - 91",
+                "margin_change": 6,
+                "original_score": "97 - 81",
+                "team": "NYK",
+                "time_committed": "6:14"
+            },
+            {
+                "final_score": "104 - 97",
+                "margin_change": 3,
+                "original_score": "101 - 91",
+                "team": "NYK",
+                "time_committed": "2:22"
+            }
+        ]
+    },
+    {
+        "game": "0021500304",
+        "techs": []
+    },
+    {
+        "game": "0021500356",
+        "techs": [
+            {
+                "final_score": "51 - 38",
+                "margin_change": 1,
+                "original_score": "45 - 31",
+                "team": "OKC",
+                "time_committed": "2:21"
+            },
+            {
+                "final_score": "76 - 71",
+                "margin_change": -2,
+                "original_score": "74 - 71",
+                "team": "OKC",
+                "time_committed": "1:08"
+            }
+        ]
+    },
+    {
+        "game": "0021500363",
+        "techs": []
+    },
+    {
+        "game": "0021500166",
+        "techs": []
+    },
+    {
+        "game": "0021500111",
+        "techs": []
+    },
+    {
+        "game": "0021500231",
+        "techs": [
+            {
+                "final_score": "63 - 72",
+                "margin_change": -1,
+                "original_score": "56 - 66",
+                "team": "IND",
+                "time_committed": "3:41"
+            }
+        ]
+    },
+    {
+        "game": "0021500077",
+        "techs": [
+            {
+                "final_score": "78 - 72",
+                "margin_change": 2,
+                "original_score": "70 - 66",
+                "team": "LAL",
+                "time_committed": "4:05"
+            }
+        ]
+    },
+    {
+        "game": "0021500070",
+        "techs": []
+    },
+    {
+        "game": "0021500020",
+        "techs": [
+            {
+                "final_score": "43 - 51",
+                "margin_change": 2,
+                "original_score": "35 - 45",
+                "team": "DAL",
+                "time_committed": "1:41"
+            },
+            {
+                "final_score": "57 - 64",
+                "margin_change": -2,
+                "original_score": "50 - 55",
+                "team": "DAL",
+                "time_committed": "9:49"
+            }
+        ]
+    },
+    {
+        "game": "0021500160",
+        "techs": []
+    },
+    {
+        "game": "0021500182",
+        "techs": [
+            {
+                "final_score": "88 - 100",
+                "margin_change": 6,
+                "original_score": "86 - 92",
+                "team": "NOP",
+                "time_committed": "6:36"
+            }
+        ]
+    },
+    {
+        "game": "0021500218",
+        "techs": [
+            {
+                "final_score": "43 - 60",
+                "margin_change": 4,
+                "original_score": "35 - 48",
+                "team": "DET",
+                "time_committed": "3:48"
+            }
+        ]
+    },
+    {
+        "game": "0021500434",
+        "techs": []
+    },
+    {
+        "game": "0021500421",
+        "techs": [
+            {
+                "final_score": "16 - 32",
+                "margin_change": 4,
+                "original_score": "12 - 24",
+                "team": "TOR",
+                "time_committed": "3:08"
+            }
+        ]
+    },
+    {
+        "game": "0021500008",
+        "techs": []
+    },
+    {
+        "game": "0021500407",
+        "techs": [
+            {
+                "final_score": "63 - 63",
+                "margin_change": 6,
+                "original_score": "55 - 49",
+                "team": "ORL",
+                "time_committed": "10:38"
+            }
+        ]
+    },
+    {
+        "game": "0021500347",
+        "techs": [
+            {
+                "final_score": "79 - 55",
+                "margin_change": -2,
+                "original_score": "70 - 48",
+                "team": "ATL",
+                "time_committed": "1:58"
+            }
+        ]
+    },
+    {
+        "game": "0021500309",
+        "techs": []
+    },
+    {
+        "game": "0021500263",
+        "techs": [
+            {
+                "final_score": "71 - 71",
+                "margin_change": -1,
+                "original_score": "65 - 66",
+                "team": "PHI",
+                "time_committed": "6:54"
+            }
+        ]
+    },
+    {
+        "game": "0021500219",
+        "techs": []
+    },
+    {
+        "game": "0021500280",
+        "techs": []
+    },
+    {
+        "game": "0021500279",
+        "techs": []
+    },
+    {
+        "game": "0021500234",
+        "techs": [
+            {
+                "final_score": "71 - 70",
+                "margin_change": -3,
+                "original_score": "65 - 61",
+                "team": "DET",
+                "time_committed": "5:30"
+            }
+        ]
+    },
+    {
+        "game": "0021500174",
+        "techs": []
+    },
+    {
+        "game": "0021500169",
+        "techs": []
+    },
+    {
+        "game": "0021500161",
+        "techs": []
+    },
+    {
+        "game": "0021500092",
+        "techs": []
+    },
+    {
+        "game": "0021500066",
+        "techs": [
+            {
+                "final_score": "91 - 95",
+                "margin_change": 1,
+                "original_score": "83 - 88",
+                "team": "TOR",
+                "time_committed": "6:37"
+            },
+            {
+                "final_score": "103 - 98",
+                "margin_change": 12,
+                "original_score": "87 - 94",
+                "team": "TOR",
+                "time_committed": "4:05"
+            }
+        ]
+    },
+    {
+        "game": "0021500382",
+        "techs": [
+            {
+                "final_score": "43 - 54",
+                "margin_change": -5,
+                "original_score": "43 - 49",
+                "team": "MIL",
+                "time_committed": "0:39"
+            },
+            {
+                "final_score": "58 - 70",
+                "margin_change": -1,
+                "original_score": "53 - 66",
+                "team": "LAC",
+                "time_committed": "6:49"
+            },
+            {
+                "final_score": "58 - 70",
+                "margin_change": -1,
+                "original_score": "53 - 66",
+                "team": "LAC",
+                "time_committed": "6:49"
+            }
+        ]
+    },
+    {
+        "game": "0021500058",
+        "techs": []
+    },
+    {
+        "game": "0021500121",
+        "techs": []
+    },
+    {
+        "game": "0021500276",
+        "techs": []
+    },
+    {
+        "game": "0021500298",
+        "techs": []
+    },
+    {
+        "game": "0021500045",
+        "techs": []
+    },
+    {
+        "game": "0021500047",
+        "techs": []
+    },
+    {
+        "game": "0021500056",
+        "techs": []
+    },
+    {
+        "game": "0021500448",
+        "techs": []
+    },
+    {
+        "game": "0021500308",
+        "techs": []
+    },
+    {
+        "game": "0021500423",
+        "techs": [
+            {
+                "final_score": "40 - 28",
+                "margin_change": 5,
+                "original_score": "29 - 22",
+                "team": "BOS",
+                "time_committed": "11:20"
+            }
+        ]
+    },
+    {
+        "game": "0021500415",
+        "techs": [
+            {
+                "final_score": "28 - 27",
+                "margin_change": -1,
+                "original_score": "21 - 21",
+                "team": "HOU",
+                "time_committed": "3:07"
+            },
+            {
+                "final_score": "60 - 69",
+                "margin_change": 4,
+                "original_score": "55 - 60",
+                "team": "CHA",
+                "time_committed": "3:01"
+            },
+            {
+                "final_score": "60 - 69",
+                "margin_change": 4,
+                "original_score": "60 - 65",
+                "team": "CHA",
+                "time_committed": "0:46"
+            }
+        ]
+    },
+    {
+        "game": "0021500387",
+        "techs": [
+            {
+                "final_score": "94 - 100",
+                "margin_change": 8,
+                "original_score": "78 - 92",
+                "team": "POR",
+                "time_committed": "4:48"
+            }
+        ]
+    },
+    {
+        "game": "0021500285",
+        "techs": [
+            {
+                "final_score": "14 - 17",
+                "margin_change": 1,
+                "original_score": "6 - 10",
+                "team": "MIL",
+                "time_committed": "5:56"
+            }
+        ]
+    },
+    {
+        "game": "0021500292",
+        "techs": []
+    },
+    {
+        "game": "0021500261",
+        "techs": []
+    },
+    {
+        "game": "0021500186",
+        "techs": []
+    },
+    {
+        "game": "0021500226",
+        "techs": []
+    },
+    {
+        "game": "0021500220",
+        "techs": []
+    },
+    {
+        "game": "0021500188",
+        "techs": []
+    },
+    {
+        "game": "0021500132",
+        "techs": []
+    },
+    {
+        "game": "0021500184",
+        "techs": [
+            {
+                "final_score": "38 - 48",
+                "margin_change": -6,
+                "original_score": "32 - 36",
+                "team": "UTA",
+                "time_committed": "5:45"
+            }
+        ]
+    },
+    {
+        "game": "0021500128",
+        "techs": []
+    },
+    {
+        "game": "0021500061",
+        "techs": []
+    },
+    {
+        "game": "0021500057",
+        "techs": [
+            {
+                "final_score": "74 - 71",
+                "margin_change": 4,
+                "original_score": "66 - 67",
+                "team": "TOR",
+                "time_committed": "4:49"
+            }
+        ]
+    },
+    {
+        "game": "0021500085",
+        "techs": [
+            {
+                "final_score": "68 - 69",
+                "margin_change": 0,
+                "original_score": "59 - 60",
+                "team": "CHI",
+                "time_committed": "9:21"
+            }
+        ]
+    },
+    {
+        "game": "0021500116",
+        "techs": [
+            {
+                "final_score": "79 - 74",
+                "margin_change": -1,
+                "original_score": "73 - 69",
+                "team": "BOS",
+                "time_committed": "4:11"
+            }
+        ]
+    },
+    {
+        "game": "0021500021",
+        "techs": []
+    },
+    {
+        "game": "0021500028",
+        "techs": []
+    },
+    {
+        "game": "0021500450",
+        "techs": []
+    },
+    {
+        "game": "0021500406",
+        "techs": [
+            {
+                "final_score": "90 - 88",
+                "margin_change": 7,
+                "original_score": "77 - 82",
+                "team": "MIL",
+                "time_committed": "7:28"
+            }
+        ]
+    },
+    {
+        "game": "0021500052",
+        "techs": []
+    },
+    {
+        "game": "0021500243",
+        "techs": [
+            {
+                "final_score": "25 - 43",
+                "margin_change": 0,
+                "original_score": "18 - 36",
+                "team": "NOP",
+                "time_committed": "9:09"
+            }
+        ]
+    },
+    {
+        "game": "0021500215",
+        "techs": []
+    },
+    {
+        "game": "0021500138",
+        "techs": []
+    },
+    {
+        "game": "0021500237",
+        "techs": [
+            {
+                "final_score": "91 - 80",
+                "margin_change": 3,
+                "original_score": "84 - 76",
+                "team": "MIN",
+                "time_committed": "8:57"
+            }
+        ]
+    },
+    {
+        "game": "0021500162",
+        "techs": [
+            {
+                "final_score": "91 - 98",
+                "margin_change": 1,
+                "original_score": "81 - 89",
+                "team": "CHA",
+                "time_committed": "7:45"
+            }
+        ]
+    },
+    {
+        "game": "0021500133",
+        "techs": []
+    },
+    {
+        "game": "0021500134",
+        "techs": []
+    },
+    {
+        "game": "0021500122",
+        "techs": []
+    },
+    {
+        "game": "0021500114",
+        "techs": []
+    },
+    {
+        "game": "0021500108",
+        "techs": []
+    },
+    {
+        "game": "0021500062",
+        "techs": []
+    },
+    {
+        "game": "0021500094",
+        "techs": []
+    },
+    {
+        "game": "0021500036",
+        "techs": []
+    },
+    {
+        "game": "0021500037",
+        "techs": []
+    },
+    {
+        "game": "0021500427",
+        "techs": [
+            {
+                "final_score": "28 - 45",
+                "margin_change": -2,
+                "original_score": "18 - 33",
+                "team": "MEM",
+                "time_committed": "10:11"
+            },
+            {
+                "final_score": "28 - 45",
+                "margin_change": -2,
+                "original_score": "18 - 33",
+                "team": "MEM",
+                "time_committed": "10:11"
+            }
+        ]
+    },
+    {
+        "game": "0021500418",
+        "techs": [
+            {
+                "final_score": "32 - 41",
+                "margin_change": 1,
+                "original_score": "26 - 34",
+                "team": "LAC",
+                "time_committed": "9:48"
+            }
+        ]
+    },
+    {
+        "game": "0021500403",
+        "techs": []
+    },
+    {
+        "game": "0021500454",
+        "techs": []
+    },
+    {
+        "game": "0021500360",
+        "techs": []
+    },
+    {
+        "game": "0021500354",
+        "techs": []
+    },
+    {
+        "game": "0021500329",
+        "techs": []
+    },
+    {
+        "game": "0021500216",
+        "techs": [
+            {
+                "final_score": "89 - 100",
+                "margin_change": -2,
+                "original_score": "74 - 87",
+                "team": "ORL",
+                "time_committed": "4:30"
+            }
+        ]
+    },
+    {
+        "game": "0021500287",
+        "techs": [
+            {
+                "final_score": "57 - 53",
+                "margin_change": -3,
+                "original_score": "57 - 50",
+                "team": "HOU",
+                "time_committed": "1:38"
+            }
+        ]
+    },
+    {
+        "game": "0021500206",
+        "techs": []
+    },
+    {
+        "game": "0021500149",
+        "techs": [
+            {
+                "final_score": "45 - 52",
+                "margin_change": 0,
+                "original_score": "40 - 47",
+                "team": "BOS",
+                "time_committed": "1:47"
+            },
+            {
+                "final_score": "72 - 72",
+                "margin_change": -7,
+                "original_score": "61 - 68",
+                "team": "OKC",
+                "time_committed": "5:08"
+            },
+            {
+                "final_score": "100 - 85",
+                "margin_change": 2,
+                "original_score": "98 - 85",
+                "team": "BOS",
+                "time_committed": "0:27"
+            }
+        ]
+    },
+    {
+        "game": "0021500131",
+        "techs": [
+            {
+                "final_score": "61 - 72",
+                "margin_change": 2,
+                "original_score": "56 - 65",
+                "team": "TOR",
+                "time_committed": "3:02"
+            }
+        ]
+    },
+    {
+        "game": "0021500286",
+        "techs": []
+    },
+    {
+        "game": "0021500082",
+        "techs": [
+            {
+                "final_score": "10 - 9",
+                "margin_change": -4,
+                "original_score": "1 - 4",
+                "team": "PHX",
+                "time_committed": "8:43"
+            }
+        ]
+    },
+    {
+        "game": "0021500060",
+        "techs": []
+    },
+    {
+        "game": "0021500446",
+        "techs": []
+    },
+    {
+        "game": "0021500392",
+        "techs": []
+    },
+    {
+        "game": "0021500332",
+        "techs": [
+            {
+                "final_score": "39 - 46",
+                "margin_change": -5,
+                "original_score": "29 - 41",
+                "team": "SAC",
+                "time_committed": "3:26"
+            }
+        ]
+    },
+    {
+        "game": "0021500222",
+        "techs": [
+            {
+                "final_score": "40 - 41",
+                "margin_change": -5,
+                "original_score": "27 - 33",
+                "team": "MIN",
+                "time_committed": "9:05"
+            },
+            {
+                "final_score": "48 - 50",
+                "margin_change": -5,
+                "original_score": "40 - 47",
+                "team": "MIN",
+                "time_committed": "3:19"
+            }
+        ]
+    },
+    {
+        "game": "0021500291",
+        "techs": [
+            {
+                "final_score": "64 - 83",
+                "margin_change": 0,
+                "original_score": "64 - 83",
+                "team": "CLE",
+                "time_committed": "0:08"
+            }
+        ]
+    },
+    {
+        "game": "0021500110",
+        "techs": []
+    },
+    {
+        "game": "0021500271",
+        "techs": []
+    },
+    {
+        "game": "0021500273",
+        "techs": []
+    },
+    {
+        "game": "0021500079",
+        "techs": [
+            {
+                "final_score": "46 - 36",
+                "margin_change": 1,
+                "original_score": "39 - 28",
+                "team": "NYK",
+                "time_committed": "9:20"
+            },
+            {
+                "final_score": "56 - 53",
+                "margin_change": 0,
+                "original_score": "46 - 43",
+                "team": "NYK",
+                "time_committed": "2:41"
+            }
+        ]
+    },
+    {
+        "game": "0021500320",
+        "techs": []
+    },
+    {
+        "game": "0021500443",
+        "techs": []
+    },
+    {
+        "game": "0021500377",
+        "techs": []
+    },
+    {
+        "game": "0021500095",
+        "techs": []
+    },
+    {
+        "game": "0021500120",
+        "techs": [
+            {
+                "final_score": "74 - 63",
+                "margin_change": 8,
+                "original_score": "57 - 54",
+                "team": "GSW",
+                "time_committed": "3:37"
+            },
+            {
+                "final_score": "74 - 63",
+                "margin_change": -9,
+                "original_score": "58 - 56",
+                "team": "MEM",
+                "time_committed": "3:08"
+            }
+        ]
+    },
+    {
+        "game": "0021500345",
+        "techs": [
+            {
+                "final_score": "73 - 62",
+                "margin_change": 4,
+                "original_score": "62 - 55",
+                "team": "BOS",
+                "time_committed": "5:24"
+            },
+            {
+                "final_score": "88 - 89",
+                "margin_change": 0,
+                "original_score": "81 - 82",
+                "team": "BOS",
+                "time_committed": "6:54"
+            }
+        ]
+    },
+    {
+        "game": "0021500348",
+        "techs": []
+    },
+    {
+        "game": "0021500328",
+        "techs": []
+    },
+    {
+        "game": "0021500457",
+        "techs": [
+            {
+                "final_score": "73 - 76",
+                "margin_change": 0,
+                "original_score": "62 - 65",
+                "team": "POR",
+                "time_committed": "5:41"
+            }
+        ]
+    },
+    {
+        "game": "0021500303",
+        "techs": []
+    },
+    {
+        "game": "0021500207",
+        "techs": []
+    },
+    {
+        "game": "0021500025",
+        "techs": []
+    },
+    {
+        "game": "0021500394",
+        "techs": [
+            {
+                "final_score": "18 - 11",
+                "margin_change": -2,
+                "original_score": "7 - 2",
+                "team": "DAL",
+                "time_committed": "8:04"
+            },
+            {
+                "final_score": "35 - 40",
+                "margin_change": 6,
+                "original_score": "28 - 27",
+                "team": "DAL",
+                "time_committed": "9:46"
+            }
+        ]
+    },
+    {
+        "game": "0021500055",
+        "techs": [
+            {
+                "final_score": "51 - 40",
+                "margin_change": 1,
+                "original_score": "49 - 37",
+                "team": "MIA",
+                "time_committed": "0:56"
+            }
+        ]
+    },
+    {
+        "game": "0021500023",
+        "techs": []
+    },
+    {
+        "game": "0021500277",
+        "techs": [
+            {
+                "final_score": "51 - 50",
+                "margin_change": -2,
+                "original_score": "47 - 44",
+                "team": "OKC",
+                "time_committed": "2:44"
+            }
+        ]
+    },
+    {
+        "game": "0021500189",
+        "techs": [
+            {
+                "final_score": "27 - 22",
+                "margin_change": 5,
+                "original_score": "16 - 16",
+                "team": "ORL",
+                "time_committed": "4:11"
+            },
+            {
+                "final_score": "97 - 86",
+                "margin_change": 3,
+                "original_score": "88 - 80",
+                "team": "ORL",
+                "time_committed": "5:59"
+            }
+        ]
+    },
+    {
+        "game": "0021500192",
+        "techs": []
+    },
+    {
+        "game": "0021500323",
+        "techs": []
+    },
+    {
+        "game": "0021500395",
+        "techs": []
+    },
+    {
+        "game": "0021500151",
+        "techs": [
+            {
+                "final_score": "85 - 97",
+                "margin_change": -1,
+                "original_score": "77 - 88",
+                "team": "DET",
+                "time_committed": "2:21"
+            }
+        ]
+    },
+    {
+        "game": "0021500230",
+        "techs": [
+            {
+                "final_score": "34 - 37",
+                "margin_change": 1,
+                "original_score": "26 - 28",
+                "team": "NYK",
+                "time_committed": "11:29"
+            }
+        ]
+    },
+    {
+        "game": "0021500148",
+        "techs": []
+    },
+    {
+        "game": "0021500262",
+        "techs": []
+    },
+    {
+        "game": "0021500099",
+        "techs": [
+            {
+                "final_score": "64 - 60",
+                "margin_change": 6,
+                "original_score": "53 - 55",
+                "team": "ORL",
+                "time_committed": "7:44"
+            }
+        ]
+    },
+    {
+        "game": "0021500026",
+        "techs": []
+    },
+    {
+        "game": "0021500265",
+        "techs": []
+    },
+    {
+        "game": "0021500402",
+        "techs": []
+    },
+    {
+        "game": "0021500002",
+        "techs": [
+            {
+                "final_score": "92 - 97",
+                "margin_change": -2,
+                "original_score": "83 - 86",
+                "team": "CLE",
+                "time_committed": "4:58"
+            }
+        ]
+    },
+    {
+        "game": "0021500333",
+        "techs": []
+    },
+    {
+        "game": "0021500180",
+        "techs": []
+    },
+    {
+        "game": "0021500272",
+        "techs": [
+            {
+                "final_score": "96 - 86",
+                "margin_change": 1,
+                "original_score": "93 - 84",
+                "team": "TOR",
+                "time_committed": "0:33"
+            }
+        ]
+    },
+    {
+        "game": "0021500193",
+        "techs": [
+            {
+                "final_score": "74 - 67",
+                "margin_change": -4,
+                "original_score": "62 - 59",
+                "team": "MIA",
+                "time_committed": "3:48"
+            }
+        ]
+    },
+    {
+        "game": "0021500181",
+        "techs": []
+    },
+    {
+        "game": "0021500033",
+        "techs": []
+    },
+    {
+        "game": "0021500153",
+        "techs": []
+    },
+    {
+        "game": "0021500071",
+        "techs": []
+    },
+    {
+        "game": "0021500073",
+        "techs": [
+            {
+                "final_score": "92 - 80",
+                "margin_change": 1,
+                "original_score": "84 - 73",
+                "team": "UTA",
+                "time_committed": "5:54"
+            }
+        ]
+    },
+    {
+        "game": "0021500096",
+        "techs": [
+            {
+                "final_score": "71 - 93",
+                "margin_change": 6,
+                "original_score": "68 - 84",
+                "team": "MIA",
+                "time_committed": "8:08"
+            }
+        ]
+    },
+    {
+        "game": "0021500063",
+        "techs": []
+    },
+    {
+        "game": "0021500275",
+        "techs": []
+    },
+    {
+        "game": "0021500204",
+        "techs": []
+    },
+    {
+        "game": "0021500355",
+        "techs": [
+            {
+                "final_score": "58 - 69",
+                "margin_change": 8,
+                "original_score": "50 - 69",
+                "team": "PHI",
+                "time_committed": "3:15"
+            }
+        ]
+    },
+    {
+        "game": "0021500040",
+        "techs": [
+            {
+                "final_score": "95 - 87",
+                "margin_change": 0,
+                "original_score": "90 - 82",
+                "team": "SAS",
+                "time_committed": "2:00"
+            }
+        ]
+    },
+    {
+        "game": "0021500341",
+        "techs": []
+    },
+    {
+        "game": "0021500299",
+        "techs": []
+    },
+    {
+        "game": "0021500145",
+        "techs": []
+    },
+    {
+        "game": "0021500440",
+        "techs": []
+    },
+    {
+        "game": "0021500264",
+        "techs": [
+            {
+                "final_score": "20 - 25",
+                "margin_change": 0,
+                "original_score": "20 - 25",
+                "team": "BKN",
+                "time_committed": "0:24"
+            }
+        ]
+    },
+    {
+        "game": "0021500113",
+        "techs": []
+    },
+    {
+        "game": "0021500436",
+        "techs": []
+    },
+    {
+        "game": "0021500105",
+        "techs": [
+            {
+                "final_score": "24 - 21",
+                "margin_change": 0,
+                "original_score": "17 - 14",
+                "team": "MEM",
+                "time_committed": "5:09"
+            },
+            {
+                "final_score": "74 - 78",
+                "margin_change": 1,
+                "original_score": "71 - 74",
+                "team": "LAC",
+                "time_committed": "9:26"
+            },
+            {
+                "final_score": "79 - 80",
+                "margin_change": 2,
+                "original_score": "72 - 75",
+                "team": "MEM",
+                "time_committed": "8:34"
+            }
+        ]
+    },
+    {
+        "game": "0021500089",
+        "techs": [
+            {
+                "final_score": "72 - 85",
+                "margin_change": -3,
+                "original_score": "68 - 78",
+                "team": "BKN",
+                "time_committed": "7:38"
+            },
+            {
+                "final_score": "72 - 85",
+                "margin_change": -2,
+                "original_score": "68 - 79",
+                "team": "BKN",
+                "time_committed": "7:30"
+            }
+        ]
+    },
+    {
+        "game": "0021500054",
+        "techs": [
+            {
+                "final_score": "92 - 78",
+                "margin_change": -1,
+                "original_score": "89 - 74",
+                "team": "IND",
+                "time_committed": "9:13"
+            }
+        ]
+    },
+    {
+        "game": "0021500048",
+        "techs": []
+    },
+    {
+        "game": "0021500420",
+        "techs": []
+    },
+    {
+        "game": "0021500183",
+        "techs": []
+    },
+    {
+        "game": "0021500029",
+        "techs": [
+            {
+                "final_score": "49 - 39",
+                "margin_change": 6,
+                "original_score": "36 - 32",
+                "team": "MIN",
+                "time_committed": "3:28"
+            }
+        ]
+    },
+    {
+        "game": "0021500322",
+        "techs": []
+    },
+    {
+        "game": "0021500227",
+        "techs": []
+    },
+    {
+        "game": "0021500213",
+        "techs": [
+            {
+                "final_score": "87 - 86",
+                "margin_change": -1,
+                "original_score": "80 - 80",
+                "team": "POR",
+                "time_committed": "4:17"
+            },
+            {
+                "final_score": "87 - 86",
+                "margin_change": -1,
+                "original_score": "80 - 80",
+                "team": "POR",
+                "time_committed": "4:17"
+            }
+        ]
+    },
+    {
+        "game": "0021500173",
+        "techs": []
+    },
+    {
+        "game": "0021500195",
+        "techs": []
+    },
+    {
+        "game": "0021500257",
+        "techs": []
+    },
+    {
+        "game": "0021500241",
+        "techs": [
+            {
+                "final_score": "81 - 92",
+                "margin_change": -4,
+                "original_score": "77 - 92",
+                "team": "DAL",
+                "time_committed": "1:29"
+            }
+        ]
+    },
+    {
+        "game": "0021500156",
+        "techs": []
+    },
+    {
+        "game": "0021500152",
+        "techs": [
+            {
+                "final_score": "49 - 44",
+                "margin_change": -1,
+                "original_score": "40 - 34",
+                "team": "DAL",
+                "time_committed": "4:00"
+            }
+        ]
+    },
+    {
+        "game": "0021500251",
+        "techs": []
+    },
+    {
+        "game": "0021500142",
+        "techs": []
+    },
+    {
+        "game": "0021500124",
+        "techs": []
+    },
+    {
+        "game": "0021500258",
+        "techs": []
+    },
+    {
+        "game": "0021500075",
+        "techs": []
+    },
+    {
+        "game": "0021500424",
+        "techs": [
+            {
+                "final_score": "44 - 51",
+                "margin_change": -4,
+                "original_score": "38 - 41",
+                "team": "NYK",
+                "time_committed": "5:33"
+            },
+            {
+                "final_score": "50 - 55",
+                "margin_change": 1,
+                "original_score": "40 - 46",
+                "team": "NYK",
+                "time_committed": "3:50"
+            }
+        ]
+    },
+    {
+        "game": "0021500007",
+        "techs": [
+            {
+                "final_score": "64 - 69",
+                "margin_change": 7,
+                "original_score": "62 - 60",
+                "team": "DET",
+                "time_committed": "2:44"
+            }
+        ]
+    },
+    {
+        "game": "0021500235",
+        "techs": []
+    },
+    {
+        "game": "0021500043",
+        "techs": []
+    },
+    {
+        "game": "0021500039",
+        "techs": []
+    },
+    {
+        "game": "0021500337",
+        "techs": []
+    },
+    {
+        "game": "0021500310",
+        "techs": []
+    },
+    {
+        "game": "0021500065",
+        "techs": []
+    },
+    {
+        "game": "0021500240",
+        "techs": []
+    },
+    {
+        "game": "0021500135",
+        "techs": [
+            {
+                "final_score": "82 - 90",
+                "margin_change": -3,
+                "original_score": "74 - 79",
+                "team": "LAL",
+                "time_committed": "3:40"
+            }
+        ]
+    },
+    {
+        "game": "0021500130",
+        "techs": []
+    },
+    {
+        "game": "0021500080",
+        "techs": []
+    },
+    {
+        "game": "0021500439",
+        "techs": []
+    },
+    {
+        "game": "0021500196",
+        "techs": []
+    },
+    {
+        "game": "0021500367",
+        "techs": []
+    },
+    {
+        "game": "0021500159",
+        "techs": []
+    },
+    {
+        "game": "0021500224",
+        "techs": []
+    },
+    {
+        "game": "0021500246",
+        "techs": []
+    },
+    {
+        "game": "0021500091",
+        "techs": [
+            {
+                "final_score": "38 - 51",
+                "margin_change": -4,
+                "original_score": "34 - 43",
+                "team": "MEM",
+                "time_committed": "2:27"
+            }
+        ]
+    },
+    {
+        "game": "0021500317",
+        "techs": []
+    },
+    {
+        "game": "0021500217",
+        "techs": []
+    },
+    {
+        "game": "0021500004",
+        "techs": []
+    },
+    {
+        "game": "0021500239",
+        "techs": []
+    },
+    {
+        "game": "0021500248",
+        "techs": []
+    },
+    {
+        "game": "0021500330",
+        "techs": [
+            {
+                "final_score": "54 - 62",
+                "margin_change": 7,
+                "original_score": "43 - 58",
+                "team": "LAC",
+                "time_committed": "5:59"
+            }
+        ]
+    },
+    {
+        "game": "0021500438",
+        "techs": []
+    }
+]

@@ -61,7 +61,7 @@ class Stat:
         :return: The actual unsorted data from the JSON library
         """
         try:
-            return requests.get(url, params).json()
+            return requests.get(url, params, timeout=10).json()
         except requests.RequestException:
             return None
         except simplejson.scanner.JSONDecodeError:
@@ -105,10 +105,10 @@ class Stat:
         :param player: Name of the player, can be provided in either FirstName LastName format, or LastName, FirstName
         :return: The ID of the specified player
         """
-        if not player.__contains__(','):
+        if not player.__contains__(',') and not player.lower() == 'nene':
             player = '{}, {}'.format(player.split(' ')[1], player.split(' ')[0])
         try:
-            with open('playerlist.txt', 'r') as player_file:
+            with open('lists/playerlist.txt', 'r') as player_file:
                 try:
                     return [line.split(': ')[1].replace('\n', '') for line in player_file
                             if line.__contains__(player)][0]
@@ -125,7 +125,7 @@ class Stat:
         :return: The ID of the team
         """
         try:
-            with open('teamlist.txt', 'r') as team_file:
+            with open('lists/teamlist.txt', 'r') as team_file:
                 try:
                     return [line.split(': ')[1].replace('\n', '') for line in team_file if line.__contains__(team)][0]
                 except IndexError:
@@ -162,13 +162,12 @@ class AllPlayersList(Stat):
     def __init__(self, **kwargs):
         params = {'IsOnlyCurrentSeason': '0', 'LeagueID': '00', 'Season': '2015-16'}
         super().__init__('http://stats.nba.com/stats/commonallplayers?', params, kwargs)
-        self.write_to_file()
 
     def write_to_file(self):
         if self.list:
             try:
-                with open('playerlist.txt', 'w') as player_list:
-                    for player in list(self.list):
+                with open('../TechnicalEffects/playerlist.txt', 'w') as player_list:
+                    for player in list(self.list[0]):
                         player_list.write('{}: {}\n'.format(player['DISPLAY_LAST_COMMA_FIRST'], player['PERSON_ID']))
             except FileNotFoundError:
                 return None
@@ -349,7 +348,6 @@ class PlayerGameLogs(Stat):
     def __init__(self, player, **kwargs):
         params = {'LeagueID': '00', 'Season': '2015-16', 'SeasonType': 'Regular Season'}
         super().__init__('http://stats.nba.com/stats/playergamelog?', params, kwargs, player=player)
-
 
 class PlayerCareerStats(Stat):
 

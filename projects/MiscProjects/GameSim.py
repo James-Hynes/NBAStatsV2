@@ -1,4 +1,4 @@
-from DataGather import *
+from lib.DataGather import *
 from random import choice
 
 
@@ -25,11 +25,11 @@ class Game:
         return team_one, team_two
 
     def run_game(self):
-        total_time_sec = int(self.game_params['quarter_clock'])* (60 * 4)
+        total_time_sec = int(self.game_params['quarter_clock']) * (60 * 4)
         Play(self.quarter, self.quarter_clock, self.score)
 
         # while total_time_sec > 0:
-            # pass
+        #pass
 
     @staticmethod
     def edit_params(base_params, kwargs):
@@ -77,4 +77,5 @@ class Shot:
 
     def shooting_player(self):
         pass
-Game()
+
+
