@@ -1,10 +1,10 @@
 from lib.DataGather import *
 from json import dump, JSONDecodeError
+from statistics import stdev, StatisticsError
 import concurrent.futures
 
 
 class ManageData:
-
     @staticmethod
     def write_data_to_json_file(fp, data, form=True):
         try:
@@ -21,7 +21,6 @@ class ManageData:
 
 
 class TechnicalEffects(ManageData):
-
     def __init__(self, season):
         self.season = season
         self.fp = 'Data/tech_runs/{}tech_runs.json'.format(season)
@@ -88,5 +87,43 @@ class TechnicalEffects(ManageData):
     @staticmethod
     def convert_time_to_seconds(change_time):
         sp_time = str(change_time).split(':')
-        return (int(sp_time[0])*60) + int(sp_time[1])
+        return (int(sp_time[0]) * 60) + int(sp_time[1])
 
+
+class PlayerConsistencyInfo(ManageData):
+    def __init__(self):
+        self.player = None
+        self.player_obj = None
+        self.write_data_to_json_file('Data/player_consistency.json', self.collect_player_info())
+
+    def collect_player_info(self):
+        overall_obj = []
+        executor = concurrent.futures.ThreadPoolExecutor(10)
+        r_list = [executor.submit(self.create_json_object, player=player, full_list=overall_obj)
+                  for player in AllPlayersList(IsOnlyCurrentSeason='1').list[0]]
+        concurrent.futures.wait(r_list)
+
+        return overall_obj
+
+    @staticmethod
+    def create_json_object(player, full_list):
+        player_name = (player['DISPLAY_LAST_COMMA_FIRST'])
+        player_obj = PlayerGameLogs(player_name)
+        log_pts = [game['PTS'] for game in player_obj.list[0]]
+        log_ast = [game['AST'] for game in player_obj.list[0]]
+        log_reb = [game['REB'] for game in player_obj.list[0]]
+
+        try:
+            standard_dev = {'PTS': stdev(log_pts), 'AST': stdev(log_ast),
+                            'REB': stdev(log_reb)}
+        except StatisticsError:
+            standard_dev = {'PTS': None, 'AST': None, 'REB': None}
+        logs = {'PTS': log_pts, 'AST': log_ast, 'REB': log_reb}
+        json_obj = {'logs': logs, 'standard_dev_logs': standard_dev, 'name': player_name,
+                    'team': player['TEAM_CODE']}
+
+        full_list.append(json_obj)
+
+
+if __name__ == '__main__':
+    PlayerConsistencyInfo()

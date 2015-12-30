@@ -1,6 +1,7 @@
 import requests
 import simplejson.scanner
-
+from pathlib import Path, WindowsPath
+import os
 
 class Stat:
     """Super class to handle general stat gathering from stats.nba.com
@@ -105,16 +106,21 @@ class Stat:
         :param player: Name of the player, can be provided in either FirstName LastName format, or LastName, FirstName
         :return: The ID of the specified player
         """
+
+        lists_path = [str(path) for path in Path(os.getcwd()).parents if path.name == 'NBAStatsV2'][0]
+
         if not player.__contains__(',') and not player.lower() == 'nene':
             player = '{}, {}'.format(player.split(' ')[1], player.split(' ')[0])
         try:
-            with open('lists/playerlist.txt', 'r') as player_file:
+            with open(lists_path + '/lists/playerlist.txt', 'r') as player_file:
                 try:
                     return [line.split(': ')[1].replace('\n', '') for line in player_file
                             if line.__contains__(player)][0]
                 except IndexError:
+
                     return None
         except FileNotFoundError:
+            print('oh no!')
             return None
 
     @staticmethod

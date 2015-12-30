@@ -41,7 +41,8 @@ class Game:
 
     @staticmethod
     def gen_team():
-        with open('teamlist.txt', 'r') as team_file:
+        lists_path = [str(path) for path in Path(os.getcwd()).parents if path.name == 'NBAStatsV2'][0]
+        with open(lists_path + '/lists/teamlist.txt', 'r') as team_file:
             return choice([team.split(': ')[0] for team in team_file])
 
 
